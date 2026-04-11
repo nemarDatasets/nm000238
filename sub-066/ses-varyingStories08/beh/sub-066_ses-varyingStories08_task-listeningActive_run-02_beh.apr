@@ -1,0 +1,588 @@
+<apex:results xmlns:apex="http://med.kuleuven.be/exporl/apex/result" experiment_file="dubbellijst_1_Matrix.apx">
+  <general>
+    <apex_version>4.1.2</apex_version>
+    <apex_version_git>(c3f56e) -   Fri Sep 27 19:03:49 2019 +0200</apex_version_git>
+    <hostname>GBW-L-W1571</hostname>
+    <device_id>{5802da0c-59e6-4799-b3fd-5cd964a726d9}</device_id>
+    <startdate>2022-05-03T14:29:26</startdate>
+    <enddate>2022-05-03T14:34:59</enddate>
+    <duration unit="seconds">333</duration>
+    <jscript>apex:resultsviewer.html</jscript>
+    <subject>170</subject>
+    <interactive>
+      <entry>
+        <expression>apex:apex/results[1]/subject[1]</expression>
+        <new_value>170</new_value>
+        <succeeded>true</succeeded>
+        <description>subject</description>
+      </entry>
+      <entry>
+        <expression>/apex:apex/procedure[1]/parameters[1]/parameter[1]</expression>
+        <new_value>-4</new_value>
+        <succeeded>true</succeeded>
+        <description>SNR</description>
+      </entry>
+    </interactive>
+    <stopped_by>procedure</stopped_by>
+  </general>
+  <trial id="trial_zin_56675">
+    <myScore>1</myScore>
+    <myReversals>0</myReversals>
+    <myROC>1.5</myROC>
+    <myDelta>-5</myDelta>
+    <procedure>
+      <parameter>-4</parameter>
+    </procedure>
+    <screenresult>
+      <element id="matrix_subject">
+        <answer>Johan</answer>
+        <answer>maakt</answer>
+        <answer>tien</answer>
+        <answer>rode</answer>
+        <answer>jassen</answer>
+      </element>
+      <element id="next" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">7032</responsetime>
+    <randomgenerators />
+    <trial_start_time>2022-05-03T14:29:26</trial_start_time>
+  </trial>
+  <trial id="trial_zin_39851">
+    <myScore>0.6</myScore>
+    <myReversals>0</myReversals>
+    <myROC>1.5</myROC>
+    <myDelta>-0.9999999999999998</myDelta>
+    <procedure>
+      <parameter>-9</parameter>
+    </procedure>
+    <screenresult>
+      <element id="matrix_subject">
+        <answer>Jacob</answer>
+        <answer>zoekt</answer>
+        <answer>acht</answer>
+        <answer>gele</answer>
+        <answer>boten</answer>
+      </element>
+      <element id="next" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">7660</responsetime>
+    <randomgenerators />
+    <trial_start_time>2022-05-03T14:29:45</trial_start_time>
+  </trial>
+  <trial id="trial_zin_95127">
+    <myScore>0.4</myScore>
+    <myReversals>1</myReversals>
+    <myROC>1.0638297872340425</myROC>
+    <myDelta>0.7092198581560283</myDelta>
+    <procedure>
+      <parameter>-10</parameter>
+    </procedure>
+    <screenresult>
+      <element id="matrix_subject">
+        <answer />
+        <answer>ziet</answer>
+        <answer>drie</answer>
+        <answer>bruine</answer>
+        <answer />
+      </element>
+      <element id="next" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">7926</responsetime>
+    <randomgenerators />
+    <trial_start_time>2022-05-03T14:30:04</trial_start_time>
+  </trial>
+  <trial id="trial_zin_24088">
+    <myScore>0.4</myScore>
+    <myReversals>1</myReversals>
+    <myROC>1.0638297872340425</myROC>
+    <myDelta>0.7092198581560283</myDelta>
+    <procedure>
+      <parameter>-9.290780141843971</parameter>
+    </procedure>
+    <screenresult>
+      <element id="matrix_subject">
+        <answer>Ellen</answer>
+        <answer />
+        <answer>twee</answer>
+        <answer>witte</answer>
+        <answer />
+      </element>
+      <element id="next" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">8605</responsetime>
+    <randomgenerators />
+    <trial_start_time>2022-05-03T14:30:16</trial_start_time>
+  </trial>
+  <trial id="trial_zin_01597">
+    <myScore>0.6</myScore>
+    <myReversals>2</myReversals>
+    <myROC>0.7544892108042857</myROC>
+    <myDelta>-0.502992807202857</myDelta>
+    <procedure>
+      <parameter>-8.581560283687942</parameter>
+    </procedure>
+    <screenresult>
+      <element id="matrix_subject">
+        <answer>Jacob</answer>
+        <answer>heeft</answer>
+        <answer>acht</answer>
+        <answer>zwarte</answer>
+        <answer />
+      </element>
+      <element id="next" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">10334</responsetime>
+    <randomgenerators />
+    <trial_start_time>2022-05-03T14:30:35</trial_start_time>
+  </trial>
+  <trial id="trial_zin_78422">
+    <myScore>0.6</myScore>
+    <myReversals>2</myReversals>
+    <myROC>0.7544892108042857</myROC>
+    <myDelta>-0.502992807202857</myDelta>
+    <procedure>
+      <parameter>-9.084553090890799</parameter>
+    </procedure>
+    <screenresult>
+      <element id="matrix_subject">
+        <answer>Sara</answer>
+        <answer>ziet</answer>
+        <answer>zes</answer>
+        <answer />
+        <answer />
+      </element>
+      <element id="next" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">6693</responsetime>
+    <randomgenerators />
+    <trial_start_time>2022-05-03T14:30:51</trial_start_time>
+  </trial>
+  <trial id="trial_zin_60750">
+    <myScore>0.2</myScore>
+    <myReversals>3</myReversals>
+    <myROC>0.5350987310668692</myROC>
+    <myDelta>1.0701974621337385</myDelta>
+    <procedure>
+      <parameter>-9.587545898093655</parameter>
+    </procedure>
+    <screenresult>
+      <element id="matrix_subject">
+        <answer>Lucas</answer>
+        <answer />
+        <answer />
+        <answer />
+        <answer />
+      </element>
+      <element id="next" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">3369</responsetime>
+    <randomgenerators />
+    <trial_start_time>2022-05-03T14:31:08</trial_start_time>
+  </trial>
+  <trial id="trial_zin_43841">
+    <myScore>0.4</myScore>
+    <myReversals>3</myReversals>
+    <myROC>0.5350987310668692</myROC>
+    <myDelta>0.35673248737791274</myDelta>
+    <procedure>
+      <parameter>-8.517348435959917</parameter>
+    </procedure>
+    <screenresult>
+      <element id="matrix_subject">
+        <answer>Jeroen</answer>
+        <answer />
+        <answer>acht</answer>
+        <answer>grijze</answer>
+        <answer />
+      </element>
+      <element id="next" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">6527</responsetime>
+    <randomgenerators />
+    <trial_start_time>2022-05-03T14:31:22</trial_start_time>
+  </trial>
+  <trial id="trial_zin_43590">
+    <myScore>0.6</myScore>
+    <myReversals>4</myReversals>
+    <myROC>0.3795026461467158</myROC>
+    <myDelta>-0.2530017640978105</myDelta>
+    <procedure>
+      <parameter>-8.160615948582004</parameter>
+    </procedure>
+    <screenresult>
+      <element id="matrix_subject">
+        <answer>Jeroen</answer>
+        <answer>koopt</answer>
+        <answer>acht</answer>
+        <answer />
+        <answer />
+      </element>
+      <element id="next" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">11661</responsetime>
+    <randomgenerators />
+    <trial_start_time>2022-05-03T14:31:40</trial_start_time>
+  </trial>
+  <trial id="trial_zin_19903">
+    <myScore>0.6</myScore>
+    <myReversals>4</myReversals>
+    <myROC>0.3795026461467158</myROC>
+    <myDelta>-0.2530017640978105</myDelta>
+    <procedure>
+      <parameter>-8.413617712679814</parameter>
+    </procedure>
+    <screenresult>
+      <element id="matrix_subject">
+        <answer>Ellen</answer>
+        <answer>zoekt</answer>
+        <answer>veel</answer>
+        <answer>gele</answer>
+        <answer />
+      </element>
+      <element id="next" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">10167</responsetime>
+    <randomgenerators />
+    <trial_start_time>2022-05-03T14:31:56</trial_start_time>
+  </trial>
+  <trial id="trial_zin_64265">
+    <myScore>0.2</myScore>
+    <myReversals>5</myReversals>
+    <myROC>0.2691508128700112</myROC>
+    <myDelta>0.5383016257400224</myDelta>
+    <procedure>
+      <parameter>-8.666619476777624</parameter>
+    </procedure>
+    <screenresult>
+      <element id="matrix_subject">
+        <answer>Lucas</answer>
+        <answer />
+        <answer>twee</answer>
+        <answer />
+        <answer />
+      </element>
+      <element id="next" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">6514</responsetime>
+    <randomgenerators />
+    <trial_start_time>2022-05-03T14:32:11</trial_start_time>
+  </trial>
+  <trial id="trial_zin_97119">
+    <myScore>1</myScore>
+    <myReversals>6</myReversals>
+    <myROC>0.19088710132624911</myROC>
+    <myDelta>-0.6362903377541638</myDelta>
+    <procedure>
+      <parameter>-8.128317851037602</parameter>
+    </procedure>
+    <screenresult>
+      <element id="matrix_subject">
+        <answer>Thomas</answer>
+        <answer>wint</answer>
+        <answer>drie</answer>
+        <answer>blauwe</answer>
+        <answer>ringen</answer>
+      </element>
+      <element id="next" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">7195</responsetime>
+    <randomgenerators />
+    <trial_start_time>2022-05-03T14:32:28</trial_start_time>
+  </trial>
+  <trial id="trial_zin_76919">
+    <myScore>0.8</myScore>
+    <myReversals>6</myReversals>
+    <myROC>0.19088710132624911</myROC>
+    <myDelta>-0.38177420265249834</myDelta>
+    <procedure>
+      <parameter>-8.764608188791765</parameter>
+    </procedure>
+    <screenresult>
+      <element id="matrix_subject">
+        <answer>Sara</answer>
+        <answer>maakt</answer>
+        <answer>veel</answer>
+        <answer>blauwe</answer>
+        <answer />
+      </element>
+      <element id="next" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">7940</responsetime>
+    <randomgenerators />
+    <trial_start_time>2022-05-03T14:32:40</trial_start_time>
+  </trial>
+  <trial id="trial_zin_85236">
+    <myScore>0.2</myScore>
+    <myReversals>7</myReversals>
+    <myROC>0.13538092292641782</myROC>
+    <myDelta>0.27076184585283564</myDelta>
+    <procedure>
+      <parameter>-9.146382391444263</parameter>
+    </procedure>
+    <screenresult>
+      <element id="matrix_subject">
+        <answer>Thomas</answer>
+        <answer>leent</answer>
+        <answer>veel</answer>
+        <answer />
+        <answer />
+      </element>
+      <element id="next" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">7976</responsetime>
+    <randomgenerators />
+    <trial_start_time>2022-05-03T14:32:52</trial_start_time>
+  </trial>
+  <trial id="trial_zin_18004">
+    <myScore>0.6</myScore>
+    <myReversals>8</myReversals>
+    <myROC>0.1</myROC>
+    <myDelta>-0.06666666666666667</myDelta>
+    <procedure>
+      <parameter>-8.875620545591428</parameter>
+    </procedure>
+    <screenresult>
+      <element id="matrix_subject">
+        <answer>Ellen</answer>
+        <answer>ziet</answer>
+        <answer>twee</answer>
+        <answer>grijze</answer>
+        <answer />
+      </element>
+      <element id="next" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">9121</responsetime>
+    <randomgenerators />
+    <trial_start_time>2022-05-03T14:33:11</trial_start_time>
+  </trial>
+  <trial id="trial_zin_57383">
+    <myScore>0.4</myScore>
+    <myReversals>9</myReversals>
+    <myROC>0.1</myROC>
+    <myDelta>0.06666666666666667</myDelta>
+    <procedure>
+      <parameter>-8.942287212258094</parameter>
+    </procedure>
+    <screenresult>
+      <element id="matrix_subject">
+        <answer>Johan</answer>
+        <answer>krijgt</answer>
+        <answer>vijf</answer>
+        <answer>gele</answer>
+        <answer />
+      </element>
+      <element id="next" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">12960</responsetime>
+    <randomgenerators />
+    <trial_start_time>2022-05-03T14:33:33</trial_start_time>
+  </trial>
+  <trial id="trial_zin_82448">
+    <myScore>0.6</myScore>
+    <myReversals>10</myReversals>
+    <myROC>0.1</myROC>
+    <myDelta>-0.06666666666666667</myDelta>
+    <procedure>
+      <parameter>-8.875620545591428</parameter>
+    </procedure>
+    <screenresult>
+      <element id="matrix_subject">
+        <answer />
+        <answer>kiest</answer>
+        <answer>zes</answer>
+        <answer>grijze</answer>
+        <answer />
+      </element>
+      <element id="next" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">9295</responsetime>
+    <randomgenerators />
+    <trial_start_time>2022-05-03T14:33:51</trial_start_time>
+  </trial>
+  <trial id="trial_zin_32364">
+    <myScore>0.8</myScore>
+    <myReversals>10</myReversals>
+    <myROC>0.1</myROC>
+    <myDelta>-0.20000000000000004</myDelta>
+    <procedure>
+      <parameter>-8.942287212258094</parameter>
+    </procedure>
+    <screenresult>
+      <element id="matrix_subject">
+        <answer>Jacob</answer>
+        <answer>kiest</answer>
+        <answer>twee</answer>
+        <answer>paarse</answer>
+        <answer>fietsen</answer>
+      </element>
+      <element id="next" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">5792</responsetime>
+    <randomgenerators />
+    <trial_start_time>2022-05-03T14:34:11</trial_start_time>
+  </trial>
+  <trial id="trial_zin_20736">
+    <myScore>1</myScore>
+    <myReversals>10</myReversals>
+    <myROC>0.1</myROC>
+    <myDelta>-0.33333333333333337</myDelta>
+    <procedure>
+      <parameter>-9.142287212258093</parameter>
+    </procedure>
+    <screenresult>
+      <element id="matrix_subject">
+        <answer>Emma</answer>
+        <answer>draagt</answer>
+        <answer>elf</answer>
+        <answer>gele</answer>
+        <answer>kousen</answer>
+      </element>
+      <element id="next" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">6828</responsetime>
+    <randomgenerators />
+    <trial_start_time>2022-05-03T14:34:22</trial_start_time>
+  </trial>
+  <trial id="trial_zin_01672">
+    <myScore>0.2</myScore>
+    <myReversals>11</myReversals>
+    <myROC>0.1</myROC>
+    <myDelta>0.2</myDelta>
+    <procedure>
+      <parameter>-9.475620545591427</parameter>
+    </procedure>
+    <screenresult>
+      <element id="matrix_subject">
+        <answer>Jacob</answer>
+        <answer />
+        <answer>tien</answer>
+        <answer />
+        <answer />
+      </element>
+      <element id="next" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">5054</responsetime>
+    <randomgenerators />
+    <trial_start_time>2022-05-03T14:34:44</trial_start_time>
+  </trial>
+  <calibration>
+    <profile>Louis_matrix</profile>
+    <hardware_setup>C2DNN</hardware_setup>
+    <parameters>
+      <parameter id="gainL">-29.7</parameter>
+      <parameter id="gainR">-29.4</parameter>
+    </parameters>
+  </calibration>
+</apex:results>

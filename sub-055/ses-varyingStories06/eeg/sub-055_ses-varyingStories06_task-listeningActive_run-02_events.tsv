@@ -1,0 +1,2 @@
+onset	duration	stim_file	trigger_file	noise_file	video_file	condition	snr
+7.92	796.19	eeg/podcast_20.npz.gz	eeg/t_podcast_20.npz.gz	eeg/noise_podcast_20.npz.gz	n/a	in_noise	100.00

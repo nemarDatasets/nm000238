@@ -1,0 +1,598 @@
+<apex:results xmlns:apex="http://med.kuleuven.be/exporl/apex/result" experiment_file="dubbellijst_3_Matrix.apx">
+  <general>
+    <apex_version>4.0.1</apex_version>
+    <apex_version_git>(641551) -   Thu Feb 14 11:40:03 2019 +0100</apex_version_git>
+    <hostname>GBW-D-W2405</hostname>
+    <device_id>{6bcf27d5-63a2-4ea4-ad93-a0cdccf9d733}</device_id>
+    <startdate />
+    <enddate>2020-08-14T18:28:16</enddate>
+    <duration unit="seconds">0</duration>
+    <jscript>apex:resultsviewer.html</jscript>
+    <subject>085</subject>
+    <interactive>
+      <entry>
+        <expression>apex:apex/results/subject</expression>
+        <new_value>2020_C2DNN_85</new_value>
+        <succeeded>true</succeeded>
+        <description />
+      </entry>
+    </interactive>
+    <stopped_by>procedure</stopped_by>
+  </general>
+  <trial id="trial_zin_94702">
+    <myScore>1</myScore>
+    <myReversals>0</myReversals>
+    <myROC>1.5</myROC>
+    <myDelta>-5</myDelta>
+    <procedure>
+      <parameter>0</parameter>
+    </procedure>
+    <screenresult>
+      <element id="matrix_subject">
+        <answer>Thomas</answer>
+        <answer>krijgt</answer>
+        <answer>elf</answer>
+        <answer>beige</answer>
+        <answer>doeken</answer>
+      </element>
+      <element id="next" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">11690</responsetime>
+    <randomgenerators />
+    <trial_start_time>2020-08-14T18:24:31</trial_start_time>
+  </trial>
+  <trial id="trial_zin_82296">
+    <myScore>1</myScore>
+    <myReversals>0</myReversals>
+    <myROC>1.5</myROC>
+    <myDelta>-5</myDelta>
+    <procedure>
+      <parameter>-5</parameter>
+    </procedure>
+    <screenresult>
+      <element id="matrix_subject">
+        <answer>Sofie</answer>
+        <answer>kiest</answer>
+        <answer>vier</answer>
+        <answer>zwarte</answer>
+        <answer>kousen</answer>
+      </element>
+      <element id="next" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">7383</responsetime>
+    <randomgenerators />
+    <trial_start_time>2020-08-14T18:24:47</trial_start_time>
+  </trial>
+  <trial id="trial_zin_96069">
+    <myScore>0.2</myScore>
+    <myReversals>1</myReversals>
+    <myROC>1.0638297872340425</myROC>
+    <myDelta>2.127659574468085</myDelta>
+    <procedure>
+      <parameter>-10</parameter>
+    </procedure>
+    <screenresult>
+      <element id="matrix_subject">
+        <answer>Thomas</answer>
+        <answer />
+        <answer />
+        <answer />
+        <answer />
+      </element>
+      <element id="next" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">5357</responsetime>
+    <randomgenerators />
+    <trial_start_time>2020-08-14T18:24:59</trial_start_time>
+  </trial>
+  <trial id="trial_zin_48854">
+    <myScore>0.2</myScore>
+    <myReversals>1</myReversals>
+    <myROC>1.0638297872340425</myROC>
+    <myDelta>2.127659574468085</myDelta>
+    <procedure>
+      <parameter>-7.872340425531915</parameter>
+    </procedure>
+    <screenresult>
+      <element id="matrix_subject">
+        <answer>Jeroen</answer>
+        <answer />
+        <answer />
+        <answer />
+        <answer />
+      </element>
+      <element id="next" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">6628</responsetime>
+    <randomgenerators />
+    <trial_start_time>2020-08-14T18:25:09</trial_start_time>
+  </trial>
+  <trial id="trial_zin_65874">
+    <myScore>0.4</myScore>
+    <myReversals>1</myReversals>
+    <myROC>1.0638297872340425</myROC>
+    <myDelta>0.7092198581560283</myDelta>
+    <procedure>
+      <parameter>-5.74468085106383</parameter>
+    </procedure>
+    <screenresult>
+      <element id="matrix_subject">
+        <answer>Lucas</answer>
+        <answer>leent</answer>
+        <answer />
+        <answer />
+        <answer />
+      </element>
+      <element id="next" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">6733</responsetime>
+    <randomgenerators />
+    <trial_start_time>2020-08-14T18:25:20</trial_start_time>
+  </trial>
+  <trial id="trial_zin_27520">
+    <myScore>0.4</myScore>
+    <myReversals>1</myReversals>
+    <myROC>1.0638297872340425</myROC>
+    <myDelta>0.7092198581560283</myDelta>
+    <procedure>
+      <parameter>-5.035460992907802</parameter>
+    </procedure>
+    <screenresult>
+      <element id="matrix_subject">
+        <answer>Emma</answer>
+        <answer>wint</answer>
+        <answer />
+        <answer />
+        <answer />
+      </element>
+      <element id="next" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">6798</responsetime>
+    <randomgenerators />
+    <trial_start_time>2020-08-14T18:25:32</trial_start_time>
+  </trial>
+  <trial id="trial_zin_01626">
+    <myScore>0.8</myScore>
+    <myReversals>2</myReversals>
+    <myROC>0.7544892108042857</myROC>
+    <myDelta>-1.5089784216085718</myDelta>
+    <procedure>
+      <parameter>-4.326241134751774</parameter>
+    </procedure>
+    <screenresult>
+      <element id="matrix_subject">
+        <answer>David</answer>
+        <answer />
+        <answer>tien</answer>
+        <answer>bruine</answer>
+        <answer>kousen</answer>
+      </element>
+      <element id="next" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">9301</responsetime>
+    <randomgenerators />
+    <trial_start_time>2020-08-14T18:25:43</trial_start_time>
+  </trial>
+  <trial id="trial_zin_53113">
+    <myScore>0.8</myScore>
+    <myReversals>2</myReversals>
+    <myROC>0.7544892108042857</myROC>
+    <myDelta>-1.5089784216085718</myDelta>
+    <procedure>
+      <parameter>-5.835219556360346</parameter>
+    </procedure>
+    <screenresult>
+      <element id="matrix_subject">
+        <answer>Johan</answer>
+        <answer>koopt</answer>
+        <answer>drie</answer>
+        <answer />
+        <answer>dozen</answer>
+      </element>
+      <element id="next" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">7527</responsetime>
+    <randomgenerators />
+    <trial_start_time>2020-08-14T18:25:57</trial_start_time>
+  </trial>
+  <trial id="trial_zin_19439">
+    <myScore>0</myScore>
+    <myReversals>3</myReversals>
+    <myROC>0.5350987310668692</myROC>
+    <myDelta>1.7836624368895642</myDelta>
+    <procedure>
+      <parameter>-7.344197977968918</parameter>
+    </procedure>
+    <screenresult>
+      <element id="matrix_subject">
+        <answer />
+        <answer />
+        <answer />
+        <answer />
+        <answer />
+      </element>
+      <element id="next" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">3439</responsetime>
+    <randomgenerators />
+    <trial_start_time>2020-08-14T18:26:10</trial_start_time>
+  </trial>
+  <trial id="trial_zin_50443">
+    <myScore>1</myScore>
+    <myReversals>4</myReversals>
+    <myROC>0.3795026461467158</myROC>
+    <myDelta>-1.2650088204890528</myDelta>
+    <procedure>
+      <parameter>-5.5605355410793535</parameter>
+    </procedure>
+    <screenresult>
+      <element id="matrix_subject">
+        <answer>Johan</answer>
+        <answer>draagt</answer>
+        <answer>zes</answer>
+        <answer>grijze</answer>
+        <answer>dozen</answer>
+      </element>
+      <element id="next" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">5704</responsetime>
+    <randomgenerators />
+    <trial_start_time>2020-08-14T18:26:17</trial_start_time>
+  </trial>
+  <trial id="trial_zin_30990">
+    <myScore>0.6</myScore>
+    <myReversals>4</myReversals>
+    <myROC>0.3795026461467158</myROC>
+    <myDelta>-0.2530017640978105</myDelta>
+    <procedure>
+      <parameter>-6.825544361568406</parameter>
+    </procedure>
+    <screenresult>
+      <element id="matrix_subject">
+        <answer>Jacob</answer>
+        <answer>draagt</answer>
+        <answer>twee</answer>
+        <answer>zwarte</answer>
+        <answer />
+      </element>
+      <element id="next" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">8470</responsetime>
+    <randomgenerators />
+    <trial_start_time>2020-08-14T18:26:28</trial_start_time>
+  </trial>
+  <trial id="trial_zin_79638">
+    <myScore>0.6</myScore>
+    <myReversals>4</myReversals>
+    <myROC>0.3795026461467158</myROC>
+    <myDelta>-0.2530017640978105</myDelta>
+    <procedure>
+      <parameter>-7.078546125666216</parameter>
+    </procedure>
+    <screenresult>
+      <element id="matrix_subject">
+        <answer>Sara</answer>
+        <answer />
+        <answer>tien</answer>
+        <answer />
+        <answer>pennen</answer>
+      </element>
+      <element id="next" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">7285</responsetime>
+    <randomgenerators />
+    <trial_start_time>2020-08-14T18:26:41</trial_start_time>
+  </trial>
+  <trial id="trial_zin_33111">
+    <myScore>0.6</myScore>
+    <myReversals>4</myReversals>
+    <myROC>0.3795026461467158</myROC>
+    <myDelta>-0.2530017640978105</myDelta>
+    <procedure>
+      <parameter>-7.3315478897640265</parameter>
+    </procedure>
+    <screenresult>
+      <element id="matrix_subject">
+        <answer>Jacob</answer>
+        <answer />
+        <answer>drie</answer>
+        <answer>blauwe</answer>
+        <answer />
+      </element>
+      <element id="next" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">5871</responsetime>
+    <randomgenerators />
+    <trial_start_time>2020-08-14T18:26:53</trial_start_time>
+  </trial>
+  <trial id="trial_zin_47558">
+    <myScore>0.2</myScore>
+    <myReversals>5</myReversals>
+    <myROC>0.2691508128700112</myROC>
+    <myDelta>0.5383016257400224</myDelta>
+    <procedure>
+      <parameter>-7.584549653861837</parameter>
+    </procedure>
+    <screenresult>
+      <element id="matrix_subject">
+        <answer>Jeroen</answer>
+        <answer />
+        <answer />
+        <answer />
+        <answer />
+      </element>
+      <element id="next" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">4688</responsetime>
+    <randomgenerators />
+    <trial_start_time>2020-08-14T18:27:04</trial_start_time>
+  </trial>
+  <trial id="trial_zin_65907">
+    <myScore>0.4</myScore>
+    <myReversals>5</myReversals>
+    <myROC>0.2691508128700112</myROC>
+    <myDelta>0.1794338752466741</myDelta>
+    <procedure>
+      <parameter>-7.0462480281218145</parameter>
+    </procedure>
+    <screenresult>
+      <element id="matrix_subject">
+        <answer />
+        <answer />
+        <answer>veel</answer>
+        <answer>beige</answer>
+        <answer />
+      </element>
+      <element id="next" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">5394</responsetime>
+    <randomgenerators />
+    <trial_start_time>2020-08-14T18:27:13</trial_start_time>
+  </trial>
+  <trial id="trial_zin_28045">
+    <myScore>0.6</myScore>
+    <myReversals>6</myReversals>
+    <myROC>0.19088710132624911</myROC>
+    <myDelta>-0.12725806755083272</myDelta>
+    <procedure>
+      <parameter>-6.866814152875141</parameter>
+    </procedure>
+    <screenresult>
+      <element id="matrix_subject">
+        <answer>Emma</answer>
+        <answer />
+        <answer>twee</answer>
+        <answer>grijze</answer>
+        <answer />
+      </element>
+      <element id="next" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">4938</responsetime>
+    <randomgenerators />
+    <trial_start_time>2020-08-14T18:27:23</trial_start_time>
+  </trial>
+  <trial id="trial_zin_14775">
+    <myScore>0.8</myScore>
+    <myReversals>6</myReversals>
+    <myROC>0.19088710132624911</myROC>
+    <myDelta>-0.38177420265249834</myDelta>
+    <procedure>
+      <parameter>-6.9940722204259735</parameter>
+    </procedure>
+    <screenresult>
+      <element id="matrix_subject">
+        <answer>Ellen</answer>
+        <answer>krijgt</answer>
+        <answer>elf</answer>
+        <answer>rode</answer>
+        <answer />
+      </element>
+      <element id="next" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">6645</responsetime>
+    <randomgenerators />
+    <trial_start_time>2020-08-14T18:27:32</trial_start_time>
+  </trial>
+  <trial id="trial_zin_76381">
+    <myScore>0.8</myScore>
+    <myReversals>6</myReversals>
+    <myROC>0.19088710132624911</myROC>
+    <myDelta>-0.38177420265249834</myDelta>
+    <procedure>
+      <parameter>-7.375846423078472</parameter>
+    </procedure>
+    <screenresult>
+      <element id="matrix_subject">
+        <answer>Sara</answer>
+        <answer>maakt</answer>
+        <answer>vijf</answer>
+        <answer>witte</answer>
+        <answer>dozen</answer>
+      </element>
+      <element id="next" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">7995</responsetime>
+    <randomgenerators />
+    <trial_start_time>2020-08-14T18:27:44</trial_start_time>
+  </trial>
+  <trial id="trial_zin_82267">
+    <myScore>0.4</myScore>
+    <myReversals>7</myReversals>
+    <myROC>0.13538092292641782</myROC>
+    <myDelta>0.09025394861761186</myDelta>
+    <procedure>
+      <parameter>-7.75762062573097</parameter>
+    </procedure>
+    <screenresult>
+      <element id="matrix_subject">
+        <answer>Sofie</answer>
+        <answer>kiest</answer>
+        <answer />
+        <answer />
+        <answer />
+      </element>
+      <element id="next" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">6556</responsetime>
+    <randomgenerators />
+    <trial_start_time>2020-08-14T18:27:57</trial_start_time>
+  </trial>
+  <trial id="trial_zin_01382">
+    <myScore>0</myScore>
+    <myReversals>7</myReversals>
+    <myROC>0.13538092292641782</myROC>
+    <myDelta>0.4512697430880594</myDelta>
+    <procedure>
+      <parameter>-7.667366677113359</parameter>
+    </procedure>
+    <screenresult>
+      <element id="matrix_subject">
+        <answer>Jacob</answer>
+        <answer />
+        <answer />
+        <answer />
+        <answer />
+      </element>
+      <element id="next" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">3747</responsetime>
+    <randomgenerators />
+    <trial_start_time>2020-08-14T18:28:08</trial_start_time>
+  </trial>
+  <calibration>
+    <profile>Louis_matrix</profile>
+    <hardware_setup>C2DNN</hardware_setup>
+    <parameters>
+      <parameter id="gainL">-21.2</parameter>
+      <parameter id="gainR">-20.9</parameter>
+    </parameters>
+  </calibration>
+<processed>
+
+ExperimentFile=file://Bernd Accou/matrix/flowrunner/dubbellijst_3_Matrix.apx
+Duration=0 seconds
+Header=trial;stimulus;correctanswer;corrector;useranswer
+START
+trial_zin_94702;;;;Thomaskrijgtelfbeigedoeken
+trial_zin_82296;;;;Sofiekiestvierzwartekousen
+trial_zin_96069;;;;Thomas
+trial_zin_48854;;;;Jeroen
+trial_zin_65874;;;;Lucasleent
+trial_zin_27520;;;;Emmawint
+trial_zin_01626;;;;Davidtienbruinekousen
+trial_zin_53113;;;;Johankooptdriedozen
+trial_zin_19439;;;;
+trial_zin_50443;;;;Johandraagtzesgrijzedozen
+trial_zin_30990;;;;Jacobdraagttweezwarte
+trial_zin_79638;;;;Saratienpennen
+trial_zin_33111;;;;Jacobdrieblauwe
+trial_zin_47558;;;;Jeroen
+trial_zin_65907;;;;veelbeige
+trial_zin_28045;;;;Emmatweegrijze
+trial_zin_14775;;;;Ellenkrijgtelfrode
+trial_zin_76381;;;;Saramaaktvijfwittedozen
+trial_zin_82267;;;;Sofiekiest
+trial_zin_01382;;;;Jacob
+END
+</processed>
+</apex:results>

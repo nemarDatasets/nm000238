@@ -1,0 +1,70 @@
+<apex:results xmlns:apex="http://med.kuleuven.be/exporl/apex/result" experiment_file="silence_eind.apx">
+  <general>
+    <apex_version>4.0.1</apex_version>
+    <apex_version_git>(641551) -   Thu Feb 14 11:40:03 2019 +0100</apex_version_git>
+    <hostname>GBW-L-W1571</hostname>
+    <device_id>{eade0ad8-f6b2-427a-8410-8453fa811d7b}</device_id>
+    <startdate />
+    <enddate>2019-03-13T12:49:36</enddate>
+    <duration unit="seconds">0</duration>
+    <jscript>apex:resultsviewer.html</jscript>
+    <subject>001</subject>
+    <interactive>
+      <entry>
+        <expression>apex:apex/results[1]/subject[1]</expression>
+        <new_value>001</new_value>
+        <succeeded>true</succeeded>
+        <description>subject</description>
+      </entry>
+    </interactive>
+    <stopped_by>procedure</stopped_by>
+  </general>
+  <trial id="trial_pre_story1">
+    <procedure type="apex:constantProcedure">
+      <answer />
+      <correct_answer>1</correct_answer>
+      <stimulus>stim_silence_story1</stimulus>
+      <correct>false</correct>
+    </procedure>
+    <screenresult>
+      <element id="button" />
+      <element id="questionEdit" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">2195</responsetime>
+    <randomgenerators />
+    <trial_start_time>2019-03-13T12:47:16</trial_start_time>
+  </trial>
+  <trial id="trial_story1">
+    <procedure type="apex:constantProcedure">
+      <answer>up</answer>
+      <correct_answer>1</correct_answer>
+      <stimulus>stim_tonepips</stimulus>
+      <correct>false</correct>
+    </procedure>
+    <screenresult>
+      <element id="buttongroup1">up</element>
+      <element id="up" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">4178</responsetime>
+    <randomgenerators />
+    <trial_start_time>2019-03-13T12:47:20</trial_start_time>
+  </trial>
+  <calibration>
+    <profile>C2DNN_silence</profile>
+    <hardware_setup>C2DNN</hardware_setup>
+    <parameters>
+      <parameter id="gainL">-15</parameter>
+      <parameter id="gainR">-15</parameter>
+    </parameters>
+  </calibration>
+</apex:results>

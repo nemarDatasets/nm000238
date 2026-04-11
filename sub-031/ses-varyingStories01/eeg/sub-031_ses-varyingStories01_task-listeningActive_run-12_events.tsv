@@ -1,0 +1,2 @@
+onset	duration	stim_file	trigger_file	noise_file	video_file	condition	snr
+4.77	121.03	eeg/audiobook_7_6.npz.gz	eeg/t_audiobook_7_6.npz.gz	eeg/audiobook_6_1_swn.npz.gz	n/a	in_noise	2.5

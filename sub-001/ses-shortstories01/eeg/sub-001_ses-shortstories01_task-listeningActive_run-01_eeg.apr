@@ -1,0 +1,95 @@
+<apex:results xmlns:apex="http://med.kuleuven.be/exporl/apex/result" experiment_file="audiobook_5_1.xml">
+  <general>
+    <apex_version>4.0.0</apex_version>
+    <apex_version_git>(33dd15) -   Tue Nov 27 14:19:12 2018 +0100</apex_version_git>
+    <hostname>GBW-L-W0989</hostname>
+    <device_id>{c7d81dc3-8031-4790-9978-e99f37947f4a}</device_id>
+    <startdate>2019-02-05T14:16:30</startdate>
+    <enddate>2019-02-05T14:33:57</enddate>
+    <duration unit="seconds">1047</duration>
+    <jscript>apex:resultsviewer.html</jscript>
+    <subject>pilot02</subject>
+    <interactive>
+      <entry>
+        <expression>apex:apex/results[1]/subject[1]</expression>
+        <new_value>pilot02</new_value>
+        <succeeded>true</succeeded>
+        <description>subject</description>
+      </entry>
+      <entry>
+        <expression>/apex:apex/stimuli[1]/stimulus[1]/variableParameters[1]/parameter[1]|/apex:apex/stimuli[1]/stimulus[2]/variableParameters[1]/parameter[1]</expression>
+        <new_value>100</new_value>
+        <succeeded>true</succeeded>
+        <description>SNR</description>
+      </entry>
+    </interactive>
+  </general>
+  <trial id="trial_pre_story1">
+    <procedure type="apex:constantProcedure">
+      <answer />
+      <correct_answer>1</correct_answer>
+      <stimulus>stim_silence_story1</stimulus>
+      <correct>false</correct>
+    </procedure>
+    <screenresult>
+      <element id="button" />
+      <element id="questionEdit">Klaar? Het scherm gaat wel eventjes verdwijnen</element>
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">24971</responsetime>
+    <randomgenerators />
+    <trial_start_time>2019-02-05T14:16:30</trial_start_time>
+  </trial>
+  <trial id="trial_story1">
+    <procedure type="apex:constantProcedure">
+      <answer>up</answer>
+      <correct_answer>1</correct_answer>
+      <stimulus>stim_story1</stimulus>
+      <correct>false</correct>
+    </procedure>
+    <screenresult>
+      <element id="buttongroup1">up</element>
+      <element id="up" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">9035</responsetime>
+    <randomgenerators />
+    <trial_start_time>2019-02-05T14:16:56</trial_start_time>
+  </trial>
+  <trial id="trial_post_story1">
+    <procedure type="apex:constantProcedure">
+      <answer />
+      <correct_answer>1</correct_answer>
+      <stimulus>stim_silence_story1</stimulus>
+      <correct>false</correct>
+    </procedure>
+    <screenresult>
+      <element id="button" />
+      <element id="questionEdit">Het marmeren beeld in haar tuintje</element>
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">101467</responsetime>
+    <randomgenerators />
+    <trial_start_time>2019-02-05T14:32:14</trial_start_time>
+  </trial>
+  <calibration>
+    <profile>C2DNN_DKZ</profile>
+    <hardware_setup>Bernd_C2DNN_2019</hardware_setup>
+    <parameters>
+      <parameter id="gainL">-30</parameter>
+      <parameter id="gainR">-30</parameter>
+    </parameters>
+  </calibration>
+</apex:results>

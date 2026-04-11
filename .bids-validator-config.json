@@ -1,0 +1,6 @@
+{
+	"ignore": ["INCONSISTENT_SUBJECTS", "MISSING_SESSION", "UNUSED_STIMULUS"],
+	"warn": [],
+	"error": [],
+	"ignoredFiles": []
+}

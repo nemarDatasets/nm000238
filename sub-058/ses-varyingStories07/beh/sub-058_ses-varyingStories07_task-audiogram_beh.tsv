@@ -1,0 +1,17 @@
+ear	frequency	threshold	masked	conduction
+left	125	10	False	air
+left	250	10	False	air
+left	500	10	False	air
+left	1000	10	False	air
+left	1000	15	False	air
+left	2000	5	False	air
+left	4000	5	False	air
+left	8000	-10	False	air
+right	125	15	False	air
+right	250	10	False	air
+right	500	5	False	air
+right	1000	15	False	air
+right	1000	15	False	air
+right	2000	10	False	air
+right	4000	0	False	air
+right	8000	-5	False	air

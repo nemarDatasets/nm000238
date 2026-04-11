@@ -1,0 +1,35 @@
+{
+  "participant_id": {
+    "Description": "Unique participant identifier."
+  },
+  "age": {
+    "Description": "Always n/a in this NEMAR re-host. The upstream SparrKULee release stored age as a string range (e.g. '21 to 23') in this column, which the BIDS validator rejects (age must be numeric). The original string values have been moved to `age_range` and this column is set to n/a for validator compliance. Per-subject numeric ages are not published by the SparrKULee authors for privacy reasons; only the cohort-level aggregate is reported in the paper: 21.4 \u00b1 1.9 years (mean \u00b1 SD), inclusion window 18-30 years (Accou et al., Data 2024, 9, 94, Section 2.1)."
+  },
+  "sex": {
+    "Description": "Sex of the participant.",
+    "Levels": {
+      "M": "male",
+      "F": "female"
+    }
+  },
+  "native_language": {
+    "Description": "Native language of the participant."
+  },
+  "handedness": {
+    "Description": "handedness of the participant.",
+    "Levels": {
+      "right": "Right handed",
+      "left": "Left handed",
+      "ambidexter": "Both right and left handed"
+    }
+  },
+  "extra_comments": {
+    "Description": "Extra comments about the subject."
+  },
+  "age_range": {
+    "Description": "Approximate age range (string, e.g. '18 to 20'). Original SparrKULee `age` column values were 3-year bins; this column preserves them verbatim."
+  },
+  "exclusion_note": {
+    "Description": "Reason a subject is excluded from the NEMAR re-host. 'n/a' means the subject is included. Subjects with 'access-restricted on KU Leuven Dataverse ...' are the 5 subjects whose raw EEG files require a data-use agreement."
+  }
+}

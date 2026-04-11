@@ -1,0 +1,2 @@
+onset	duration	stim_file	trigger_file	noise_file	video_file	condition	snr
+4.01	130.25	n/a	eeg/triggers.npz.gz	n/a	n/a	no_noise	100

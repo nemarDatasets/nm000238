@@ -1,0 +1,577 @@
+<apex:results xmlns:apex="http://med.kuleuven.be/exporl/apex/result" experiment_file="dubbellijst_1_Matrix.apx">
+<general>
+	<apex_version>3.1.4</apex_version>
+	<apex_version_git>(37a059) -   Thu Feb 16 11:43:26 2017 +0100</apex_version_git>
+	<startdate>2019-02-05T10:50:54</startdate>
+	<enddate>2019-02-05T10:54:33</enddate>
+	<duration unit="seconds">218</duration>
+	<jscript>apex:resultsviewer.html</jscript>
+	<subject>pilot02</subject>
+	<interactive>
+		<entry>
+			<expression>apex:apex/results[1]/subject[1]</expression>
+			<new_value>pilot02</new_value>
+			<succeeded>true</succeeded>
+			<description>subject</description>
+		</entry>
+		<entry>
+			<expression>/apex:apex/procedure[1]/parameters[1]/parameter[1]</expression>
+			<new_value>-4</new_value>
+			<succeeded>true</succeeded>
+			<description>SNR</description>
+		</entry>
+	</interactive>
+</general>
+<trial id="trial_zin_39851">
+<myScore>0.6</myScore>
+<myReversals>0</myReversals>
+<myROC>1.5</myROC>
+<myDelta>-0.9999999999999998</myDelta>
+<procedure><parameter>-4</parameter></procedure>
+<screenresult>
+	<element id="matrix_subject"><answer>Jacob</answer>
+<answer>zoekt</answer>
+<answer>twaalf</answer>
+<answer />
+<answer /></element>
+	<element id="next" />
+</screenresult>
+<output>
+<device id="soundcard">
+  <buffer underruns="0" />
+</device>
+</output>
+<responsetime unit="ms">7576</responsetime>
+<randomgenerators>
+
+</randomgenerators>
+<trial_start_time>2019-02-05T10:50:54</trial_start_time>
+</trial>
+
+<trial id="trial_zin_19903">
+<myScore>0.8</myScore>
+<myReversals>0</myReversals>
+<myROC>1.5</myROC>
+<myDelta>-3.0000000000000004</myDelta>
+<procedure><parameter>-5</parameter></procedure>
+<screenresult>
+	<element id="matrix_subject"><answer>Ellen</answer>
+<answer>zoekt</answer>
+<answer>veel</answer>
+<answer>grijze</answer>
+<answer>dozen</answer></element>
+	<element id="next" />
+</screenresult>
+<output>
+<device id="soundcard">
+  <buffer underruns="0" />
+</device>
+</output>
+<responsetime unit="ms">10304</responsetime>
+<randomgenerators>
+
+</randomgenerators>
+<trial_start_time>2019-02-05T10:51:06</trial_start_time>
+</trial>
+
+<trial id="trial_zin_18004">
+<myScore>0.8</myScore>
+<myReversals>0</myReversals>
+<myROC>1.5</myROC>
+<myDelta>-3.0000000000000004</myDelta>
+<procedure><parameter>-8</parameter></procedure>
+<screenresult>
+	<element id="matrix_subject"><answer>Ellen</answer>
+<answer>ziet</answer>
+<answer>twee</answer>
+<answer>beige</answer>
+<answer /></element>
+	<element id="next" />
+</screenresult>
+<output>
+<device id="soundcard">
+  <buffer underruns="0" />
+</device>
+</output>
+<responsetime unit="ms">5495</responsetime>
+<randomgenerators>
+
+</randomgenerators>
+<trial_start_time>2019-02-05T10:51:21</trial_start_time>
+</trial>
+
+<trial id="trial_zin_97119">
+<myScore>0</myScore>
+<myReversals>1</myReversals>
+<myROC>1.0638297872340425</myROC>
+<myDelta>3.546099290780142</myDelta>
+<procedure><parameter>-11</parameter></procedure>
+<screenresult>
+	<element id="matrix_subject"><answer />
+<answer />
+<answer />
+<answer />
+<answer /></element>
+	<element id="next" />
+</screenresult>
+<output>
+<device id="soundcard">
+  <buffer underruns="0" />
+</device>
+</output>
+<responsetime unit="ms">3410</responsetime>
+<randomgenerators>
+
+</randomgenerators>
+<trial_start_time>2019-02-05T10:51:31</trial_start_time>
+</trial>
+
+<trial id="trial_zin_76919">
+<myScore>1</myScore>
+<myReversals>2</myReversals>
+<myROC>0.7544892108042857</myROC>
+<myDelta>-2.5149640360142858</myDelta>
+<procedure><parameter>-7.453900709219858</parameter></procedure>
+<screenresult>
+	<element id="matrix_subject"><answer>Sara</answer>
+<answer>maakt</answer>
+<answer>veel</answer>
+<answer>blauwe</answer>
+<answer>ringen</answer></element>
+	<element id="next" />
+</screenresult>
+<output>
+<device id="soundcard">
+  <buffer underruns="0" />
+</device>
+</output>
+<responsetime unit="ms">6701</responsetime>
+<randomgenerators>
+
+</randomgenerators>
+<trial_start_time>2019-02-05T10:51:38</trial_start_time>
+</trial>
+
+<trial id="trial_zin_24088">
+<myScore>0.4</myScore>
+<myReversals>3</myReversals>
+<myROC>0.5350987310668692</myROC>
+<myDelta>0.35673248737791274</myDelta>
+<procedure><parameter>-9.968864745234143</parameter></procedure>
+<screenresult>
+	<element id="matrix_subject"><answer>Emma</answer>
+<answer />
+<answer>twee</answer>
+<answer>groene</answer>
+<answer /></element>
+	<element id="next" />
+</screenresult>
+<output>
+<device id="soundcard">
+  <buffer underruns="0" />
+</device>
+</output>
+<responsetime unit="ms">5390</responsetime>
+<randomgenerators>
+
+</randomgenerators>
+<trial_start_time>2019-02-05T10:51:50</trial_start_time>
+</trial>
+
+<trial id="trial_zin_57383">
+<myScore>0.8</myScore>
+<myReversals>4</myReversals>
+<myROC>0.3795026461467158</myROC>
+<myDelta>-0.7590052922934318</myDelta>
+<procedure><parameter>-9.61213225785623</parameter></procedure>
+<screenresult>
+	<element id="matrix_subject"><answer />
+<answer>wint</answer>
+<answer>vijf</answer>
+<answer>witte</answer>
+<answer>dozen</answer></element>
+	<element id="next" />
+</screenresult>
+<output>
+<device id="soundcard">
+  <buffer underruns="0" />
+</device>
+</output>
+<responsetime unit="ms">8571</responsetime>
+<randomgenerators>
+
+</randomgenerators>
+<trial_start_time>2019-02-05T10:51:59</trial_start_time>
+</trial>
+
+<trial id="trial_zin_43590">
+<myScore>0</myScore>
+<myReversals>5</myReversals>
+<myROC>0.2691508128700112</myROC>
+<myDelta>0.8971693762333707</myDelta>
+<procedure><parameter>-10.371137550149662</parameter></procedure>
+<screenresult>
+	<element id="matrix_subject"><answer />
+<answer />
+<answer />
+<answer />
+<answer /></element>
+	<element id="next" />
+</screenresult>
+<output>
+<device id="soundcard">
+  <buffer underruns="0" />
+</device>
+</output>
+<responsetime unit="ms">3808</responsetime>
+<randomgenerators>
+
+</randomgenerators>
+<trial_start_time>2019-02-05T10:52:12</trial_start_time>
+</trial>
+
+<trial id="trial_zin_64265">
+<myScore>0.2</myScore>
+<myReversals>5</myReversals>
+<myROC>0.2691508128700112</myROC>
+<myDelta>0.5383016257400224</myDelta>
+<procedure><parameter>-9.47396817391629</parameter></procedure>
+<screenresult>
+	<element id="matrix_subject"><answer />
+<answer />
+<answer>vier</answer>
+<answer />
+<answer /></element>
+	<element id="next" />
+</screenresult>
+<output>
+<device id="soundcard">
+  <buffer underruns="0" />
+</device>
+</output>
+<responsetime unit="ms">4808</responsetime>
+<randomgenerators>
+
+</randomgenerators>
+<trial_start_time>2019-02-05T10:52:21</trial_start_time>
+</trial>
+
+<trial id="trial_zin_78422">
+<myScore>0.6</myScore>
+<myReversals>6</myReversals>
+<myROC>0.19088710132624911</myROC>
+<myDelta>-0.12725806755083272</myDelta>
+<procedure><parameter>-8.935666548176268</parameter></procedure>
+<screenresult>
+	<element id="matrix_subject"><answer>Sara</answer>
+<answer />
+<answer>zes</answer>
+<answer>bruine</answer>
+<answer /></element>
+	<element id="next" />
+</screenresult>
+<output>
+<device id="soundcard">
+  <buffer underruns="0" />
+</device>
+</output>
+<responsetime unit="ms">5530</responsetime>
+<randomgenerators>
+
+</randomgenerators>
+<trial_start_time>2019-02-05T10:52:30</trial_start_time>
+</trial>
+
+<trial id="trial_zin_82448">
+<myScore>0.6</myScore>
+<myReversals>6</myReversals>
+<myROC>0.19088710132624911</myROC>
+<myDelta>-0.12725806755083272</myDelta>
+<procedure><parameter>-9.0629246157271</parameter></procedure>
+<screenresult>
+	<element id="matrix_subject"><answer>Sofie</answer>
+<answer />
+<answer>zes</answer>
+<answer>grijze</answer>
+<answer /></element>
+	<element id="next" />
+</screenresult>
+<output>
+<device id="soundcard">
+  <buffer underruns="0" />
+</device>
+</output>
+<responsetime unit="ms">5396</responsetime>
+<randomgenerators>
+
+</randomgenerators>
+<trial_start_time>2019-02-05T10:52:40</trial_start_time>
+</trial>
+
+<trial id="trial_zin_01672">
+<myScore>0.2</myScore>
+<myReversals>7</myReversals>
+<myROC>0.13538092292641782</myROC>
+<myDelta>0.27076184585283564</myDelta>
+<procedure><parameter>-9.190182683277932</parameter></procedure>
+<screenresult>
+	<element id="matrix_subject"><answer>David</answer>
+<answer />
+<answer />
+<answer />
+<answer /></element>
+	<element id="next" />
+</screenresult>
+<output>
+<device id="soundcard">
+  <buffer underruns="0" />
+</device>
+</output>
+<responsetime unit="ms">5649</responsetime>
+<randomgenerators>
+
+</randomgenerators>
+<trial_start_time>2019-02-05T10:52:50</trial_start_time>
+</trial>
+
+<trial id="trial_zin_95127">
+<myScore>0.6</myScore>
+<myReversals>8</myReversals>
+<myROC>0.1</myROC>
+<myDelta>-0.06666666666666667</myDelta>
+<procedure><parameter>-8.919420837425097</parameter></procedure>
+<screenresult>
+	<element id="matrix_subject"><answer />
+<answer />
+<answer>drie</answer>
+<answer>bruine</answer>
+<answer>manden</answer></element>
+	<element id="next" />
+</screenresult>
+<output>
+<device id="soundcard">
+  <buffer underruns="0" />
+</device>
+</output>
+<responsetime unit="ms">6322</responsetime>
+<randomgenerators>
+
+</randomgenerators>
+<trial_start_time>2019-02-05T10:53:01</trial_start_time>
+</trial>
+
+<trial id="trial_zin_56675">
+<myScore>0.6</myScore>
+<myReversals>8</myReversals>
+<myROC>0.1</myROC>
+<myDelta>-0.06666666666666667</myDelta>
+<procedure><parameter>-8.986087504091763</parameter></procedure>
+<screenresult>
+	<element id="matrix_subject"><answer>Johan</answer>
+<answer>maakt</answer>
+<answer>drie</answer>
+<answer>rode</answer>
+<answer /></element>
+	<element id="next" />
+</screenresult>
+<output>
+<device id="soundcard">
+  <buffer underruns="0" />
+</device>
+</output>
+<responsetime unit="ms">6807</responsetime>
+<randomgenerators>
+
+</randomgenerators>
+<trial_start_time>2019-02-05T10:53:11</trial_start_time>
+</trial>
+
+<trial id="trial_zin_60750">
+<myScore>0.4</myScore>
+<myReversals>9</myReversals>
+<myROC>0.1</myROC>
+<myDelta>0.06666666666666667</myDelta>
+<procedure><parameter>-9.05275417075843</parameter></procedure>
+<screenresult>
+	<element id="matrix_subject"><answer>Lucas</answer>
+<answer />
+<answer>elf</answer>
+<answer />
+<answer /></element>
+	<element id="next" />
+</screenresult>
+<output>
+<device id="soundcard">
+  <buffer underruns="0" />
+</device>
+</output>
+<responsetime unit="ms">4381</responsetime>
+<randomgenerators>
+
+</randomgenerators>
+<trial_start_time>2019-02-05T10:53:23</trial_start_time>
+</trial>
+
+<trial id="trial_zin_01597">
+<myScore>0.8</myScore>
+<myReversals>10</myReversals>
+<myROC>0.1</myROC>
+<myDelta>-0.20000000000000004</myDelta>
+<procedure><parameter>-8.986087504091763</parameter></procedure>
+<screenresult>
+	<element id="matrix_subject"><answer>David</answer>
+<answer />
+<answer>acht</answer>
+<answer>zwarte</answer>
+<answer>manden</answer></element>
+	<element id="next" />
+</screenresult>
+<output>
+<device id="soundcard">
+  <buffer underruns="0" />
+</device>
+</output>
+<responsetime unit="ms">7263</responsetime>
+<randomgenerators>
+
+</randomgenerators>
+<trial_start_time>2019-02-05T10:53:32</trial_start_time>
+</trial>
+
+<trial id="trial_zin_85236">
+<myScore>0.4</myScore>
+<myReversals>11</myReversals>
+<myROC>0.1</myROC>
+<myDelta>0.06666666666666667</myDelta>
+<procedure><parameter>-9.186087504091763</parameter></procedure>
+<screenresult>
+	<element id="matrix_subject"><answer>Sofie</answer>
+<answer>leent</answer>
+<answer />
+<answer />
+<answer /></element>
+	<element id="next" />
+</screenresult>
+<output>
+<device id="soundcard">
+  <buffer underruns="0" />
+</device>
+</output>
+<responsetime unit="ms">7923</responsetime>
+<randomgenerators>
+
+</randomgenerators>
+<trial_start_time>2019-02-05T10:53:44</trial_start_time>
+</trial>
+
+<trial id="trial_zin_32364">
+<myScore>0.4</myScore>
+<myReversals>11</myReversals>
+<myROC>0.1</myROC>
+<myDelta>0.06666666666666667</myDelta>
+<procedure><parameter>-9.119420837425096</parameter></procedure>
+<screenresult>
+	<element id="matrix_subject"><answer>Jacob</answer>
+<answer />
+<answer>vijf</answer>
+<answer />
+<answer /></element>
+	<element id="next" />
+</screenresult>
+<output>
+<device id="soundcard">
+  <buffer underruns="0" />
+</device>
+</output>
+<responsetime unit="ms">7891</responsetime>
+<randomgenerators>
+
+</randomgenerators>
+<trial_start_time>2019-02-05T10:53:56</trial_start_time>
+</trial>
+
+<trial id="trial_zin_20736">
+<myScore>0.6</myScore>
+<myReversals>12</myReversals>
+<myROC>0.1</myROC>
+<myDelta>-0.06666666666666667</myDelta>
+<procedure><parameter>-9.05275417075843</parameter></procedure>
+<screenresult>
+	<element id="matrix_subject"><answer>Emma</answer>
+<answer>krijgt</answer>
+<answer>elf</answer>
+<answer>gele</answer>
+<answer /></element>
+	<element id="next" />
+</screenresult>
+<output>
+<device id="soundcard">
+  <buffer underruns="0" />
+</device>
+</output>
+<responsetime unit="ms">8139</responsetime>
+<randomgenerators>
+
+</randomgenerators>
+<trial_start_time>2019-02-05T10:54:09</trial_start_time>
+</trial>
+
+<trial id="trial_zin_43841">
+<myScore>0.2</myScore>
+<myReversals>13</myReversals>
+<myROC>0.1</myROC>
+<myDelta>0.2</myDelta>
+<procedure><parameter>-9.119420837425096</parameter></procedure>
+<screenresult>
+	<element id="matrix_subject"><answer>Jeroen</answer>
+<answer>heeft</answer>
+<answer>acht</answer>
+<answer />
+<answer /></element>
+	<element id="next" />
+</screenresult>
+<output>
+<device id="soundcard">
+  <buffer underruns="0" />
+</device>
+</output>
+<responsetime unit="ms">6959</responsetime>
+<randomgenerators>
+
+</randomgenerators>
+<trial_start_time>2019-02-05T10:54:22</trial_start_time>
+</trial>
+
+<calibration>
+<parameter id="gainL">-28.3</parameter>
+<parameter id="gainR">-28</parameter>
+</calibration>
+<processed>
+
+ExperimentFile=file:/C:/Bernd Accou/matrix/dubbellijst_1_Matrix.apx
+Duration=218 seconds
+Header=trial;stimulus;correctanswer;corrector;useranswer
+START
+trial_zin_39851;;;;Jacobzoekttwaalf
+trial_zin_19903;;;;Ellenzoektveelgrijzedozen
+trial_zin_18004;;;;Ellenziettweebeige
+trial_zin_97119;;;;
+trial_zin_76919;;;;Saramaaktveelblauweringen
+trial_zin_24088;;;;Emmatweegroene
+trial_zin_57383;;;;wintvijfwittedozen
+trial_zin_43590;;;;
+trial_zin_64265;;;;vier
+trial_zin_78422;;;;Sarazesbruine
+trial_zin_82448;;;;Sofiezesgrijze
+trial_zin_01672;;;;David
+trial_zin_95127;;;;driebruinemanden
+trial_zin_56675;;;;Johanmaaktdrierode
+trial_zin_60750;;;;Lucaself
+trial_zin_01597;;;;Davidachtzwartemanden
+trial_zin_85236;;;;Sofieleent
+trial_zin_32364;;;;Jacobvijf
+trial_zin_20736;;;;Emmakrijgtelfgele
+trial_zin_43841;;;;Jeroenheeftacht
+END
+</processed>
+</apex:results>

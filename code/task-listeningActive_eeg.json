@@ -1,0 +1,21 @@
+{
+  "TaskName": "listening",
+  "TaskDescription": "Participants were asked to listen to natural running speech, optionally presented in noise and/or with accompanying video.",
+  "Instructions": "Listen carefully to the presented fragment and subsequently answer a question.",
+  "InstitutionName": "ExpORL, KULeuven",
+  "InstitutionAddress": "Herestraat 49 bus 721, B-3000 Leuven, Belgium",
+  "SamplingFrequency": 8192,
+  "Manufacturer": "BioSemi",
+  "ManufacturersModelName": "Active Two",
+  "CapManufacturersModelName": "BioSemi64",
+  "SoftwareVersions": "1.2",
+  "EEGChannelCount": 64,
+  "TriggerChannelCount": 1,
+  "EOGChannelCount": 0,
+  "MiscChannelCount": 0,
+  "EEGReference": "CMS/DRL",
+  "EEGGround": "CMS/DRL",
+  "SoftwareFilters": "n/a",
+  "HardwareFilters": "n/a",
+  "PowerLineFrequency": 50
+}

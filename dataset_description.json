@@ -1,0 +1,53 @@
+{
+  "Name": "SparrKULee: A Speech-Evoked Auditory Response Repository from KU Leuven, Containing the EEG of 85 Participants",
+  "BIDSVersion": "1.9.0",
+  "DatasetType": "raw",
+  "Authors": [
+    "Bernd Accou",
+    "Lies Bollens",
+    "Marlies Gillis",
+    "Wendy Verheijen",
+    "Hugo Van hamme",
+    "Tom Francart"
+  ],
+  "AuthorsEmail": [
+    "bernd.accou@kuleuven.be",
+    "lies.bollens@kuleuven.be",
+    "marlies.gillis@kuleuven.be",
+    "wendy.verheijen@kuleuven.be",
+    "hugo.vanhamme@esat.kuleuven.be",
+    "tom.francart@kuleuven.be"
+  ],
+  "License": "Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0) for the EEG data. Stimuli can only be used for non-commercial purposes.",
+  "Acknowledgements": "Amelie Algoet, Jolien Smeulders, Lore Kerkhofs, Sara Peeters, Merel Dillen, Ilham Gamgami, Amber Verhoeven, Vitor Vasconselos, Jard Hendrickx, Lore Verbeke and Ana Carbajal Chavez",
+  "Funding": [
+    "KU Leuven Special Research Fund C24/18/099 (C2 project to Tom Francart and Hugo Van hamme)",
+    "PhD grant 1S89622N of the Research Foundation Flanders (FWO)",
+    "PhD grant 1SB1421N of the Research Foundation Flanders (FWO)",
+    "European Research Council (ERC) grant under the European Union\u2019s Horizon 2020 research and innovation program (grant agreement No 637424, ERC Starting Grant to Tom Francart)"
+  ],
+  "DatasetDOI": "doi:10.48804/K3VSND",
+  "EthicsApprovals": [
+    "Medical Ethics Committee UZ KU Leuven/Research (KU Leuven, Belgium) with reference S57102"
+  ],
+  "ReferencesAndLinks": [
+    "Code to preprocess the data and run technical validation: 'https://github.com/exporl/auditory-eeg-dataset'",
+    "https://doi.org/10.3390/data9080094"
+  ],
+  "HEDVersion": "8.2.0",
+  "Notes": "IMPORTANT \u2014 5 of the 85 original subjects (sub-019, sub-020, sub-021, sub-022, sub-026) are EXCLUDED from this NEMAR re-host because their raw EEG files are access-restricted on the KU Leuven Dataverse (HTTP 403 on download without a data-use agreement). Researchers who need these subjects should email sparrkulee@kuleuven.be to request access and download the data directly from https://rdr.kuleuven.be/dataset.xhtml?persistentId=doi:10.48804/K3VSND (DOI 10.48804/K3VSND). The re-host therefore contains 80 of the original 85 subjects, covering all 11 session types (shortstories01, varyingStories01..10).\n\nCohort demographics (from Accou et al., Data 2024, 9, 94, Section 2.1): 85 original participants, 74 female / 11 male, aged 21.4 \u00b1 1.9 years (mean \u00b1 SD), inclusion window 18-30 years, all normal-hearing (\u226430 dB HL, 125-8000 Hz), native Dutch/Flemish speakers. Per-subject numeric ages are not published by the SparrKULee authors for privacy reasons; `participants.tsv` only ships 3-year binned ages in the `age_range` column (see `participants.json` for details).",
+  "HowToAcknowledge": "Please cite the original SparrKULee data descriptor when using this dataset: Accou, B., Bollens, L., Gillis, M., Verheijen, W., Van hamme, H., & Francart, T. (2024). SparrKULee: A Speech-Evoked Auditory Response Repository from KU Leuven, Containing the EEG of 85 Participants. Data, 9(8), 94. https://doi.org/10.3390/data9080094",
+  "GeneratedBy": [
+    {
+      "Name": "convert_accou2023.py (EEGDash)",
+      "Description": "Prepared the original SparrKULee BIDS dataset for NEMAR re-hosting: excluded 5 access-restricted subjects (sub-019..022, sub-026), moved the string-range `age` column into `age_range` and set `age` to n/a, moved per-session `remarks/` text files into `/code/remarks/`, moved orphan top-level EEG sidecar into `/code/` (the raw EEG ships as `.bdf.gz` which the validator does not recognise as a BIDS data suffix), filled in recommended task-level metadata (TaskName/Description/Instructions/Institution*/StimulusPresentation) on the top-level `_beh.json` and `_events.json` sidecars, and added a prominent exclusion warning plus cohort demographics to README and dataset_description.json.",
+      "CodeURL": "https://github.com/bruaristimunha/EEGDash"
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "URL": "https://rdr.kuleuven.be/dataset.xhtml?persistentId=doi:10.48804/K3VSND",
+      "DOI": "doi:10.48804/K3VSND"
+    }
+  ]
+}

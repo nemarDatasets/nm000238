@@ -1,0 +1,8 @@
+{
+  "apx_file": {
+    "Description": "Name of the corresponding apx file that was used to present the stimuli during the experiment."
+  },
+  "apr_file": {
+    "Description": "Name of the corresponding apr file that was generated after presentation of the stimuli."
+  }
+}

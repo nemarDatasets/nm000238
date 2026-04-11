@@ -1,0 +1,95 @@
+<apex:results xmlns:apex="http://med.kuleuven.be/exporl/apex/result" experiment_file="audiobook_3.xml">
+  <general>
+    <apex_version>4.0.0</apex_version>
+    <apex_version_git>(33dd15) -   Tue Nov 27 14:19:12 2018 +0100</apex_version_git>
+    <hostname>GBW-L-W0989</hostname>
+    <device_id>{c7d81dc3-8031-4790-9978-e99f37947f4a}</device_id>
+    <startdate>2019-02-05T16:30:36</startdate>
+    <enddate>2019-02-05T16:48:21</enddate>
+    <duration unit="seconds">1064</duration>
+    <jscript>apex:resultsviewer.html</jscript>
+    <subject>pilot02</subject>
+    <interactive>
+      <entry>
+        <expression>apex:apex/results[1]/subject[1]</expression>
+        <new_value>pilot02</new_value>
+        <succeeded>true</succeeded>
+        <description>subject</description>
+      </entry>
+      <entry>
+        <expression>/apex:apex/stimuli[1]/stimulus[1]/variableParameters[1]/parameter[1]|/apex:apex/stimuli[1]/stimulus[2]/variableParameters[1]/parameter[1]</expression>
+        <new_value>100</new_value>
+        <succeeded>true</succeeded>
+        <description>SNR</description>
+      </entry>
+    </interactive>
+  </general>
+  <trial id="trial_pre_story1">
+    <procedure type="apex:constantProcedure">
+      <answer />
+      <correct_answer>1</correct_answer>
+      <stimulus>stim_silence_story1</stimulus>
+      <correct>false</correct>
+    </procedure>
+    <screenresult>
+      <element id="button" />
+      <element id="questionEdit" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">59267</responsetime>
+    <randomgenerators />
+    <trial_start_time>2019-02-05T16:30:36</trial_start_time>
+  </trial>
+  <trial id="trial_story1">
+    <procedure type="apex:constantProcedure">
+      <answer>up</answer>
+      <correct_answer>1</correct_answer>
+      <stimulus>stim_story1</stimulus>
+      <correct>false</correct>
+    </procedure>
+    <screenresult>
+      <element id="buttongroup1">up</element>
+      <element id="up" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">19500</responsetime>
+    <randomgenerators />
+    <trial_start_time>2019-02-05T16:31:37</trial_start_time>
+  </trial>
+  <trial id="trial_post_story1">
+    <procedure type="apex:constantProcedure">
+      <answer />
+      <correct_answer>1</correct_answer>
+      <stimulus>stim_silence_story1</stimulus>
+      <correct>false</correct>
+    </procedure>
+    <screenresult>
+      <element id="button" />
+      <element id="questionEdit">Een kaarsenhouder in de vorm van een engeltje</element>
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">17448</responsetime>
+    <randomgenerators />
+    <trial_start_time>2019-02-05T16:48:02</trial_start_time>
+  </trial>
+  <calibration>
+    <profile>StoriesSilence_DOL</profile>
+    <hardware_setup>Bernd_C2DNN_2019</hardware_setup>
+    <parameters>
+      <parameter id="gainL">-30.2</parameter>
+      <parameter id="gainR">-30.3</parameter>
+    </parameters>
+  </calibration>
+</apex:results>

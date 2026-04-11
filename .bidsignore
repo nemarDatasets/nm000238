@@ -1,0 +1,10 @@
+# APR files contain behavioral response data for a recording
+*.apr
+# Stimulation files contain the mapping between APR files and APX files (which contain the auditory stimulation information)
+*_stimulation.tsv
+task-listeningActive_stimulation.json
+# BDF's were gzipped to save space
+*.bdf.gz
+# Additional remarks are saved in .txt or .docx format
+*.txt
+*.docx

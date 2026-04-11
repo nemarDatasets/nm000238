@@ -1,0 +1,37 @@
+{
+  "ear": {
+    "Description": "The ear the tone was presented to.",
+    "Levels": {
+      "left": "Left ear",
+      "right": "Right ear"
+    }
+  },
+  "frequency": {
+    "Description": "The frequency of the presented tone.",
+    "Units": "Hz"
+  },
+  "threshold": {
+    "Description": "Hearing threshold level.",
+    "Units": "dB HL"
+  },
+  "masked": {
+    "Description": "Whether masking was used.",
+    "Levels": {
+      "True": "Masking was used",
+      "False": "No masking was used"
+    }
+  },
+  "conduction": {
+    "Description": "The conduction type.",
+    "Levels": {
+      "air": "Air conduction",
+      "bone": "Bone conduction"
+    }
+  },
+  "TaskName": "audiogram",
+  "TaskDescription": "Pure-tone audiometry screening. At each tone frequency the participant's hearing threshold is determined for both ears using air and (where applicable) bone conduction. Used to verify normal-hearing inclusion criteria and to characterise any mild hearing loss.",
+  "Instructions": "Press the response button as soon as you hear a tone, no matter how faint.",
+  "InstitutionName": "ExpORL, KULeuven",
+  "InstitutionAddress": "Herestraat 49 bus 721, B-3000 Leuven, Belgium",
+  "InstitutionalDepartmentName": "ExpORL (Experimental Oto-rhino-laryngology), Department of Neurosciences"
+}

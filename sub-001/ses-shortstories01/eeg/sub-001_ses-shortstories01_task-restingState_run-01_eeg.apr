@@ -1,0 +1,23 @@
+<apex:results xmlns:apex="http://med.kuleuven.be/exporl/apex/result" experiment_file="silence_begin.apx">
+<general>
+	<apex_version>3.1.4</apex_version>
+	<apex_version_git>(8266a4) -   Mon Jan 30 22:09:40 2017 +0100</apex_version_git>
+	<startdate>2019-02-05T14:04:01</startdate>
+	<enddate>2019-02-05T14:06:31</enddate>
+	<duration unit="seconds">149</duration>
+	<jscript>apex:resultsviewer.html</jscript>
+	<subject>pilot02</subject>
+	<interactive>
+		<entry>
+			<expression>apex:apex/results[1]/subject[1]</expression>
+			<new_value>pilot02</new_value>
+			<succeeded>true</succeeded>
+			<description>subject</description>
+		</entry>
+	</interactive>
+</general>
+<calibration>
+<parameter id="gainL">-15</parameter>
+<parameter id="gainR">-15</parameter>
+</calibration>
+</apex:results>

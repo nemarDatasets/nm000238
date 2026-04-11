@@ -1,0 +1,597 @@
+<apex:results xmlns:apex="http://med.kuleuven.be/exporl/apex/result" experiment_file="2_matrix_swn_136.apx">
+  <general>
+    <apex_version>4.0.1</apex_version>
+    <apex_version_git>(641551) -   Thu Feb 14 11:40:03 2019 +0100</apex_version_git>
+    <hostname>GBW-L-W1571</hostname>
+    <device_id>{b3302e12-73ca-4ef5-8ddd-50d951945f7e}</device_id>
+    <startdate />
+    <enddate>2021-09-24T10:18:58</enddate>
+    <duration unit="seconds">0</duration>
+    <jscript>apex:resultsviewer.html</jscript>
+    <subject>136</subject>
+    <interactive>
+      <entry>
+        <expression>apex:apex/results[1]/subject[1]</expression>
+        <new_value>136</new_value>
+        <succeeded>true</succeeded>
+        <description>Subject</description>
+      </entry>
+    </interactive>
+    <stopped_by>procedure</stopped_by>
+  </general>
+  <trial id="trial_pre_matrix_9_10_e">
+    <procedure type="apex:constantProcedure">
+      <answer />
+      <correct_answer>1</correct_answer>
+      <stimulus>stim_silence_matrix_9_10_e</stimulus>
+      <correct>false</correct>
+    </procedure>
+    <screenresult>
+      <element id="button" />
+      <element id="questionEdit_matrix" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">10865</responsetime>
+    <randomgenerators />
+    <trial_start_time>2021-09-24T10:01:24</trial_start_time>
+  </trial>
+  <trial id="trial_matrix_9_10_e">
+    <procedure type="apex:constantProcedure">
+      <answer />
+      <correct_answer>1</correct_answer>
+      <stimulus>stim_matrix_9_10_e</stimulus>
+      <correct>false</correct>
+    </procedure>
+    <screenresult>
+      <element id="button" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">4076</responsetime>
+    <randomgenerators />
+    <trial_start_time>2021-09-24T10:01:36</trial_start_time>
+  </trial>
+  <trial id="trial_post_matrix_9_10_e">
+    <procedure type="apex:constantProcedure">
+      <answer>button_wrong</answer>
+      <correct_answer>correct_button</correct_answer>
+      <stimulus>stim_silence_matrix_9_10_e</stimulus>
+      <correct>false</correct>
+    </procedure>
+    <screenresult>
+      <element id="button_wrong" />
+      <element id="buttongroup">button_wrong</element>
+      <element id="questionEdit_matrix">zwart, grijs, bruin, beige</element>
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">17856</responsetime>
+    <randomgenerators />
+    <trial_start_time>2021-09-24T10:03:42</trial_start_time>
+  </trial>
+  <trial id="trial_LE_matrix_9_10_e">
+    <procedure type="apex:constantProcedure">
+      <answer />
+      <correct_answer>1</correct_answer>
+      <stimulus>stim_silence_matrix_9_10_e</stimulus>
+      <correct>false</correct>
+    </procedure>
+    <screenresult>
+      <element id="button" />
+      <element id="questionEdit_LE">75</element>
+      <element id="questionEdit_SV">40</element>
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">20502</responsetime>
+    <randomgenerators />
+    <trial_start_time>2021-09-24T10:04:02</trial_start_time>
+  </trial>
+  <trial id="trial_pre_matrix_5_6_c">
+    <procedure type="apex:constantProcedure">
+      <answer />
+      <correct_answer>1</correct_answer>
+      <stimulus>stim_silence_matrix_5_6_c</stimulus>
+      <correct>false</correct>
+    </procedure>
+    <screenresult>
+      <element id="button" />
+      <element id="questionEdit_matrix" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">4300</responsetime>
+    <randomgenerators />
+    <trial_start_time>2021-09-24T10:04:23</trial_start_time>
+  </trial>
+  <trial id="trial_matrix_5_6_c">
+    <procedure type="apex:constantProcedure">
+      <answer />
+      <correct_answer>1</correct_answer>
+      <stimulus>stim_matrix_5_6_c</stimulus>
+      <correct>false</correct>
+    </procedure>
+    <screenresult>
+      <element id="button" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">2220</responsetime>
+    <randomgenerators />
+    <trial_start_time>2021-09-24T10:04:29</trial_start_time>
+  </trial>
+  <trial id="trial_post_matrix_5_6_c">
+    <procedure type="apex:constantProcedure">
+      <answer>button_correct</answer>
+      <correct_answer>correct_button</correct_answer>
+      <stimulus>stim_silence_matrix_5_6_c</stimulus>
+      <correct>false</correct>
+    </procedure>
+    <screenresult>
+      <element id="button_correct" />
+      <element id="buttongroup">button_correct</element>
+      <element id="questionEdit_matrix">blauw, groen, rood</element>
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">8161</responsetime>
+    <randomgenerators />
+    <trial_start_time>2021-09-24T10:06:33</trial_start_time>
+  </trial>
+  <trial id="trial_LE_matrix_5_6_c">
+    <procedure type="apex:constantProcedure">
+      <answer />
+      <correct_answer>1</correct_answer>
+      <stimulus>stim_silence_matrix_5_6_c</stimulus>
+      <correct>false</correct>
+    </procedure>
+    <screenresult>
+      <element id="button" />
+      <element id="questionEdit_LE">10</element>
+      <element id="questionEdit_SV">100</element>
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">6249</responsetime>
+    <randomgenerators />
+    <trial_start_time>2021-09-24T10:06:43</trial_start_time>
+  </trial>
+  <trial id="trial_pre_matrix_1_2_g">
+    <procedure type="apex:constantProcedure">
+      <answer />
+      <correct_answer>1</correct_answer>
+      <stimulus>stim_silence_matrix_1_2_g</stimulus>
+      <correct>false</correct>
+    </procedure>
+    <screenresult>
+      <element id="button" />
+      <element id="questionEdit_matrix" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">4350</responsetime>
+    <randomgenerators />
+    <trial_start_time>2021-09-24T10:06:50</trial_start_time>
+  </trial>
+  <trial id="trial_matrix_1_2_g">
+    <procedure type="apex:constantProcedure">
+      <answer />
+      <correct_answer>1</correct_answer>
+      <stimulus>stim_matrix_1_2_g</stimulus>
+      <correct>false</correct>
+    </procedure>
+    <screenresult>
+      <element id="button" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">2087</responsetime>
+    <randomgenerators />
+    <trial_start_time>2021-09-24T10:06:56</trial_start_time>
+  </trial>
+  <trial id="trial_post_matrix_1_2_g">
+    <procedure type="apex:constantProcedure">
+      <answer>button_wrong</answer>
+      <correct_answer>correct_button</correct_answer>
+      <stimulus>stim_silence_matrix_1_2_g</stimulus>
+      <correct>false</correct>
+    </procedure>
+    <screenresult>
+      <element id="button_wrong" />
+      <element id="buttongroup">button_wrong</element>
+      <element id="questionEdit_matrix">geen idee</element>
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">5712</responsetime>
+    <randomgenerators />
+    <trial_start_time>2021-09-24T10:09:02</trial_start_time>
+  </trial>
+  <trial id="trial_LE_matrix_1_2_g">
+    <procedure type="apex:constantProcedure">
+      <answer />
+      <correct_answer>1</correct_answer>
+      <stimulus>stim_silence_matrix_1_2_g</stimulus>
+      <correct>false</correct>
+    </procedure>
+    <screenresult>
+      <element id="button" />
+      <element id="questionEdit_LE">100</element>
+      <element id="questionEdit_SV">0</element>
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">6805</responsetime>
+    <randomgenerators />
+    <trial_start_time>2021-09-24T10:09:09</trial_start_time>
+  </trial>
+  <trial id="trial_pre_matrix_3_4_b">
+    <procedure type="apex:constantProcedure">
+      <answer />
+      <correct_answer>1</correct_answer>
+      <stimulus>stim_silence_matrix_3_4_b</stimulus>
+      <correct>false</correct>
+    </procedure>
+    <screenresult>
+      <element id="button" />
+      <element id="questionEdit_matrix" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">4106</responsetime>
+    <randomgenerators />
+    <trial_start_time>2021-09-24T10:09:17</trial_start_time>
+  </trial>
+  <trial id="trial_matrix_3_4_b">
+    <procedure type="apex:constantProcedure">
+      <answer />
+      <correct_answer>1</correct_answer>
+      <stimulus>stim_matrix_3_4_b</stimulus>
+      <correct>false</correct>
+    </procedure>
+    <screenresult>
+      <element id="button" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">1668</responsetime>
+    <randomgenerators />
+    <trial_start_time>2021-09-24T10:09:22</trial_start_time>
+  </trial>
+  <trial id="trial_post_matrix_3_4_b">
+    <procedure type="apex:constantProcedure">
+      <answer>button_correct</answer>
+      <correct_answer>correct_button</correct_answer>
+      <stimulus>stim_silence_matrix_3_4_b</stimulus>
+      <correct>false</correct>
+    </procedure>
+    <screenresult>
+      <element id="button_correct" />
+      <element id="buttongroup">button_correct</element>
+      <element id="questionEdit_matrix">blauw, geel, wit</element>
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">6730</responsetime>
+    <randomgenerators />
+    <trial_start_time>2021-09-24T10:11:26</trial_start_time>
+  </trial>
+  <trial id="trial_LE_matrix_3_4_b">
+    <procedure type="apex:constantProcedure">
+      <answer />
+      <correct_answer>1</correct_answer>
+      <stimulus>stim_silence_matrix_3_4_b</stimulus>
+      <correct>false</correct>
+    </procedure>
+    <screenresult>
+      <element id="button" />
+      <element id="questionEdit_LE">5</element>
+      <element id="questionEdit_SV">100</element>
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">6508</responsetime>
+    <randomgenerators />
+    <trial_start_time>2021-09-24T10:11:34</trial_start_time>
+  </trial>
+  <trial id="trial_pre_matrix_1_2_a">
+    <procedure type="apex:constantProcedure">
+      <answer />
+      <correct_answer>1</correct_answer>
+      <stimulus>stim_silence_matrix_1_2_a</stimulus>
+      <correct>false</correct>
+    </procedure>
+    <screenresult>
+      <element id="button" />
+      <element id="questionEdit_matrix" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">4115</responsetime>
+    <randomgenerators />
+    <trial_start_time>2021-09-24T10:11:42</trial_start_time>
+  </trial>
+  <trial id="trial_matrix_1_2_a">
+    <procedure type="apex:constantProcedure">
+      <answer />
+      <correct_answer>1</correct_answer>
+      <stimulus>stim_matrix_1_2_a</stimulus>
+      <correct>false</correct>
+    </procedure>
+    <screenresult>
+      <element id="button" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">2840</responsetime>
+    <randomgenerators />
+    <trial_start_time>2021-09-24T10:11:47</trial_start_time>
+  </trial>
+  <trial id="trial_post_matrix_1_2_a">
+    <procedure type="apex:constantProcedure">
+      <answer>button_correct</answer>
+      <correct_answer>correct_button</correct_answer>
+      <stimulus>stim_silence_matrix_1_2_a</stimulus>
+      <correct>false</correct>
+    </procedure>
+    <screenresult>
+      <element id="button_correct" />
+      <element id="buttongroup">button_correct</element>
+      <element id="questionEdit_matrix">4</element>
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">2431</responsetime>
+    <randomgenerators />
+    <trial_start_time>2021-09-24T10:13:54</trial_start_time>
+  </trial>
+  <trial id="trial_LE_matrix_1_2_a">
+    <procedure type="apex:constantProcedure">
+      <answer />
+      <correct_answer>1</correct_answer>
+      <stimulus>stim_silence_matrix_1_2_a</stimulus>
+      <correct>false</correct>
+    </procedure>
+    <screenresult>
+      <element id="button" />
+      <element id="questionEdit_LE">0</element>
+      <element id="questionEdit_SV">100</element>
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">6655</responsetime>
+    <randomgenerators />
+    <trial_start_time>2021-09-24T10:13:58</trial_start_time>
+  </trial>
+  <trial id="trial_pre_matrix_11_12_f">
+    <procedure type="apex:constantProcedure">
+      <answer />
+      <correct_answer>1</correct_answer>
+      <stimulus>stim_silence_matrix_11_12_f</stimulus>
+      <correct>false</correct>
+    </procedure>
+    <screenresult>
+      <element id="button" />
+      <element id="questionEdit_matrix" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">3311</responsetime>
+    <randomgenerators />
+    <trial_start_time>2021-09-24T10:14:06</trial_start_time>
+  </trial>
+  <trial id="trial_matrix_11_12_f">
+    <procedure type="apex:constantProcedure">
+      <answer />
+      <correct_answer>1</correct_answer>
+      <stimulus>stim_matrix_11_12_f</stimulus>
+      <correct>false</correct>
+    </procedure>
+    <screenresult>
+      <element id="button" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">2668</responsetime>
+    <randomgenerators />
+    <trial_start_time>2021-09-24T10:14:10</trial_start_time>
+  </trial>
+  <trial id="trial_post_matrix_11_12_f">
+    <procedure type="apex:constantProcedure">
+      <answer>button_wrong</answer>
+      <correct_answer>correct_button</correct_answer>
+      <stimulus>stim_silence_matrix_11_12_f</stimulus>
+      <correct>false</correct>
+    </procedure>
+    <screenresult>
+      <element id="button_wrong" />
+      <element id="buttongroup">button_wrong</element>
+      <element id="questionEdit_matrix">3</element>
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">3949</responsetime>
+    <randomgenerators />
+    <trial_start_time>2021-09-24T10:16:15</trial_start_time>
+  </trial>
+  <trial id="trial_LE_matrix_11_12_f">
+    <procedure type="apex:constantProcedure">
+      <answer />
+      <correct_answer>1</correct_answer>
+      <stimulus>stim_silence_matrix_11_12_f</stimulus>
+      <correct>false</correct>
+    </procedure>
+    <screenresult>
+      <element id="button" />
+      <element id="questionEdit_LE">70</element>
+      <element id="questionEdit_SV">40</element>
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">10341</responsetime>
+    <randomgenerators />
+    <trial_start_time>2021-09-24T10:16:20</trial_start_time>
+  </trial>
+  <trial id="trial_pre_matrix_7_8_d">
+    <procedure type="apex:constantProcedure">
+      <answer />
+      <correct_answer>1</correct_answer>
+      <stimulus>stim_silence_matrix_7_8_d</stimulus>
+      <correct>false</correct>
+    </procedure>
+    <screenresult>
+      <element id="button" />
+      <element id="questionEdit_matrix" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">3826</responsetime>
+    <randomgenerators />
+    <trial_start_time>2021-09-24T10:16:32</trial_start_time>
+  </trial>
+  <trial id="trial_matrix_7_8_d">
+    <procedure type="apex:constantProcedure">
+      <answer />
+      <correct_answer>1</correct_answer>
+      <stimulus>stim_matrix_7_8_d</stimulus>
+      <correct>false</correct>
+    </procedure>
+    <screenresult>
+      <element id="button" />
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">2772</responsetime>
+    <randomgenerators />
+    <trial_start_time>2021-09-24T10:16:37</trial_start_time>
+  </trial>
+  <trial id="trial_post_matrix_7_8_d">
+    <procedure type="apex:constantProcedure">
+      <answer>button_wrong</answer>
+      <correct_answer>correct_button</correct_answer>
+      <stimulus>stim_silence_matrix_7_8_d</stimulus>
+      <correct>false</correct>
+    </procedure>
+    <screenresult>
+      <element id="button_wrong" />
+      <element id="buttongroup">button_wrong</element>
+      <element id="questionEdit_matrix">3</element>
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">2895</responsetime>
+    <randomgenerators />
+    <trial_start_time>2021-09-24T10:18:41</trial_start_time>
+  </trial>
+  <trial id="trial_LE_matrix_7_8_d">
+    <procedure type="apex:constantProcedure">
+      <answer />
+      <correct_answer>1</correct_answer>
+      <stimulus>stim_silence_matrix_7_8_d</stimulus>
+      <correct>false</correct>
+    </procedure>
+    <screenresult>
+      <element id="button" />
+      <element id="questionEdit_LE">60</element>
+      <element id="questionEdit_SV">70</element>
+    </screenresult>
+    <output>
+      <device id="soundcard">
+        <buffer underruns="0" />
+      </device>
+    </output>
+    <responsetime unit="ms">11615</responsetime>
+    <randomgenerators />
+    <trial_start_time>2021-09-24T10:18:45</trial_start_time>
+  </trial>
+  <calibration>
+    <profile>C2DNN_MatrixSWN</profile>
+    <hardware_setup>C2DNN</hardware_setup>
+    <parameters>
+      <parameter id="gainL">-32.6</parameter>
+      <parameter id="gainR">-32.5</parameter>
+    </parameters>
+  </calibration>
+</apex:results>

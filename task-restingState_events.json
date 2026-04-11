@@ -1,0 +1,41 @@
+{
+  "onset": {
+    "Description": "Onset of the event (measured from the beginning of the acquisition) in seconds.",
+    "Units": "s"
+  },
+  "duration": {
+    "Description": "Duration of the event (measured from the onset) in seconds.",
+    "Units": "s"
+  },
+  "stim_file": {
+    "Description": "The auditory stimulus file that was presented during this trial of the experiment."
+  },
+  "trigger_file": {
+    "Description": "The trigger file that was presented during this trial of the experiment."
+  },
+  "noise_file": {
+    "Description": "The auditory noise that was presented during this trial of the experiment."
+  },
+  "video_file": {
+    "Description": "The video file that was presented during this trial of the experiment."
+  },
+  "condition": {
+    "Description": "The condition of the current trial, e.g. silence or video."
+  },
+  "snr": {
+    "Description": "Signal-to-noise ratio between the stimulus (\"stim_file\") and the noise (\"noise_file\"). If this value is 100, no noise was presented",
+    "Units": "dB SPL"
+  },
+  "TaskName": "restingState",
+  "TaskDescription": "Silent resting-state recording bookending the active listening blocks. Participants sat quietly with no auditory stimulus presented; used as a baseline for the speech-evoked response analyses.",
+  "Instructions": "Sit quietly and relax. No action is required.",
+  "InstitutionName": "ExpORL, KULeuven",
+  "InstitutionAddress": "Herestraat 49 bus 721, B-3000 Leuven, Belgium",
+  "InstitutionalDepartmentName": "ExpORL (Experimental Oto-rhino-laryngology), Department of Neurosciences",
+  "StimulusPresentation": {
+    "OperatingSystem": "Microsoft Windows",
+    "SoftwareName": "APEX",
+    "SoftwareVersion": "4.0.1",
+    "Code": "https://exporl.med.kuleuven.be/apex/"
+  }
+}
