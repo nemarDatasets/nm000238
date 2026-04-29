@@ -24,9 +24,9 @@
     "KU Leuven Special Research Fund C24/18/099 (C2 project to Tom Francart and Hugo Van hamme)",
     "PhD grant 1S89622N of the Research Foundation Flanders (FWO)",
     "PhD grant 1SB1421N of the Research Foundation Flanders (FWO)",
-    "European Research Council (ERC) grant under the European Union\u2019s Horizon 2020 research and innovation program (grant agreement No 637424, ERC Starting Grant to Tom Francart)"
+    "European Research Council (ERC) grant under the European Union’s Horizon 2020 research and innovation program (grant agreement No 637424, ERC Starting Grant to Tom Francart)"
   ],
-  "DatasetDOI": "doi:10.48804/K3VSND",
+  "DatasetDOI": "10.82901/nemar.nm000238",
   "EthicsApprovals": [
     "Medical Ethics Committee UZ KU Leuven/Research (KU Leuven, Belgium) with reference S57102"
   ],
@@ -35,7 +35,7 @@
     "https://doi.org/10.3390/data9080094"
   ],
   "HEDVersion": "8.2.0",
-  "Notes": "IMPORTANT \u2014 5 of the 85 original subjects (sub-019, sub-020, sub-021, sub-022, sub-026) are EXCLUDED from this NEMAR re-host because their raw EEG files are access-restricted on the KU Leuven Dataverse (HTTP 403 on download without a data-use agreement). Researchers who need these subjects should email sparrkulee@kuleuven.be to request access and download the data directly from https://rdr.kuleuven.be/dataset.xhtml?persistentId=doi:10.48804/K3VSND (DOI 10.48804/K3VSND). The re-host therefore contains 80 of the original 85 subjects, covering all 11 session types (shortstories01, varyingStories01..10).\n\nCohort demographics (from Accou et al., Data 2024, 9, 94, Section 2.1): 85 original participants, 74 female / 11 male, aged 21.4 \u00b1 1.9 years (mean \u00b1 SD), inclusion window 18-30 years, all normal-hearing (\u226430 dB HL, 125-8000 Hz), native Dutch/Flemish speakers. Per-subject numeric ages are not published by the SparrKULee authors for privacy reasons; `participants.tsv` only ships 3-year binned ages in the `age_range` column (see `participants.json` for details).",
+  "Notes": "IMPORTANT — 5 of the 85 original subjects (sub-019, sub-020, sub-021, sub-022, sub-026) are EXCLUDED from this NEMAR re-host because their raw EEG files are access-restricted on the KU Leuven Dataverse (HTTP 403 on download without a data-use agreement). Researchers who need these subjects should email sparrkulee@kuleuven.be to request access and download the data directly from https://rdr.kuleuven.be/dataset.xhtml?persistentId=doi:10.48804/K3VSND (DOI 10.48804/K3VSND). The re-host therefore contains 80 of the original 85 subjects, covering all 11 session types (shortstories01, varyingStories01..10).\n\nCohort demographics (from Accou et al., Data 2024, 9, 94, Section 2.1): 85 original participants, 74 female / 11 male, aged 21.4 ± 1.9 years (mean ± SD), inclusion window 18-30 years, all normal-hearing (≤30 dB HL, 125-8000 Hz), native Dutch/Flemish speakers. Per-subject numeric ages are not published by the SparrKULee authors for privacy reasons; `participants.tsv` only ships 3-year binned ages in the `age_range` column (see `participants.json` for details).",
   "HowToAcknowledge": "Please cite the original SparrKULee data descriptor when using this dataset: Accou, B., Bollens, L., Gillis, M., Verheijen, W., Van hamme, H., & Francart, T. (2024). SparrKULee: A Speech-Evoked Auditory Response Repository from KU Leuven, Containing the EEG of 85 Participants. Data, 9(8), 94. https://doi.org/10.3390/data9080094",
   "GeneratedBy": [
     {
@@ -49,5 +49,6 @@
       "URL": "https://rdr.kuleuven.be/dataset.xhtml?persistentId=doi:10.48804/K3VSND",
       "DOI": "doi:10.48804/K3VSND"
     }
-  ]
+  ],
+  "Version": "1.0.0"
 }
