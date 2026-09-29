@@ -1,0 +1,135 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Bernd Accou": {
+      "orcid": "0000-0002-3758-5968",
+      "affiliations": [
+        {
+          "name": "Associatie KU Leuven"
+        }
+      ]
+    },
+    "Lies Bollens": {
+      "orcid": "0000-0002-2520-2667",
+      "affiliations": [
+        {
+          "name": "Associatie KU Leuven"
+        }
+      ]
+    },
+    "Marlies Gillis": {
+      "orcid": "0000-0002-3967-2950"
+    },
+    "Wendy Verheijen": {
+      "orcid": "0000-0001-5981-2378"
+    },
+    "Hugo Van hamme": {
+      "orcid": "0000-0003-1331-5186",
+      "affiliations": [
+        {
+          "name": "Associatie KU Leuven"
+        }
+      ]
+    },
+    "Tom Francart": {
+      "orcid": "0000-0001-9734-4261",
+      "affiliations": [
+        {
+          "name": "Associatie KU Leuven"
+        }
+      ]
+    }
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.48804/K3VSND",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.3390/data9080094",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000238",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000238",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "KU Leuven Special Research Fund",
+      "award_number": "C24/18/099"
+    },
+    {
+      "funder_name": "Research Foundation Flanders (FWO)",
+      "award_number": "1S89622N"
+    },
+    {
+      "funder_name": "Research Foundation Flanders (FWO)",
+      "award_number": "1SB1421N"
+    },
+    {
+      "funder_name": "European Research Council",
+      "award_number": "637424",
+      "award_title": "ERC Starting Grant to Tom Francart (Horizon 2020)"
+    }
+  ],
+  "title": "SparrKULee: A Speech-Evoked Auditory Response Repository from KU Leuven, Containing the EEG of 85 Participants",
+  "license": "Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0) for the EEG data. Stimuli can only be used for non-commercial purposes.",
+  "dataset_type": "raw",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "beh",
+    "eeg"
+  ],
+  "resource_type_specific": "Neuroimaging Dataset",
+  "sizes": [
+    "126 GB (1669 files)"
+  ],
+  "formats": [
+    ".apr",
+    ".apx",
+    ".data_dict",
+    ".docx",
+    ".gz",
+    ".json",
+    ".md",
+    ".npy",
+    ".py",
+    ".tsv",
+    ".txt",
+    ".xml",
+    ".yml"
+  ],
+  "description": "SparrKULee is a repository of speech-evoked auditory EEG responses from normal-hearing native Dutch/Flemish speakers at KU Leuven, who listened to continuous speech stimuli across multiple sessions. This NEMAR re-host contains 80 of the original 85 participants, as five subjects are access-restricted at the source repository. The dataset supports research on neural speech tracking and auditory EEG decoding.",
+  "methods_description": "EEG was recorded in BDF format while participants listened to speech stimuli (short stories and varying stories) across 11 session types. Participants were aged 18-30 years with normal hearing (≤30 dB HL). Some recordings lack an adequate number of triggers and cannot be accurately aligned with the stimulus.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "speech perception"
+    },
+    {
+      "term": "auditory evoked potentials"
+    },
+    {
+      "term": "continuous speech"
+    },
+    {
+      "term": "neural tracking"
+    },
+    {
+      "term": "auditory EEG decoding"
+    }
+  ],
+  "source_hash": "84c6e1c657967cc132d8ec4464c71f7d47dd682a936e2905156e055a4e6f3f7b"
+}

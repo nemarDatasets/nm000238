@@ -8,3 +8,4 @@ task-listeningActive_stimulation.json
 # Additional remarks are saved in .txt or .docx format
 *.txt
 *.docx
+.nemar/
