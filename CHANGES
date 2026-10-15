@@ -1,0 +1,14 @@
+1.1.0 2026-10-15
+  - EEG recordings are now plain BDF (sub-*/ses-*/eeg/*_eeg.bdf) instead of
+    gzip-compressed *_eeg.bdf.gz, so BIDS tools, MNE and EEGDash can read
+    them. Each .bdf is the exact gunzip output of the version 1.0.0 file
+    (input SHA-256 = git-annex key, gzip CRC32/length and BDF header
+    checked); no signal or header byte was changed.
+  - task-listeningActive_eeg.json moved from code/ back to the dataset root
+    (BIDS inheritance); *.bdf.gz removed from .bidsignore; README paths
+    updated.
+  - All other files (behavioural .apr, events, stimulation tables, stimuli,
+    derivatives, code) are unchanged.
+1.0.0 2026-04-29
+  - Initial NEMAR re-host of SparrKULee (KU Leuven RDR, doi:10.48804/K3VSND):
+    80 of 85 subjects, EEG stored as *_eeg.bdf.gz.

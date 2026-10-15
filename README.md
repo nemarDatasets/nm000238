@@ -21,7 +21,7 @@ Please cite the original SparrKULee data descriptor when using this dataset: Acc
 Where extra metadata lives (after NEMAR preparation)
 ----------------------------------------------------
 
-  * `/code/task-listeningActive_eeg.json` — full recording-level EEG metadata (SamplingFrequency, Manufacturer, EEGChannelCount, EEGReference, PowerLineFrequency, ...). Relocated from the dataset root because the validator does not match the orphan top-level sidecar against the `.bdf.gz` data files.
+  * `/task-listeningActive_eeg.json` — full recording-level EEG metadata (SamplingFrequency, Manufacturer, EEGChannelCount, EEGReference, PowerLineFrequency, ...). Version 1.0.0 kept it under `/code/` because the EEG was stored as `.bdf.gz`, which the validator does not match against the sidecar. Since version 1.1.0 the EEG is plain `.bdf` and the sidecar is back at the dataset root, where BIDS inheritance applies it to every `task-listeningActive` recording.
   * `/code/remarks/` — per-session free-form recording notes (`.txt` and `.docx`) originally placed under `sub-XX/ses-YY/remarks/`. Relocated so the validator does not see an arbitrary `remarks/` folder inside BIDS session directories.
   * `/code/convert_accou2023.py` — the exact script that was run to produce this NEMAR re-host.
 
@@ -46,6 +46,6 @@ Code to download, preprocess and validate the data can be found at https://githu
 
 Due to mistakes during recording, following recordings do not have an adequate number of triggers and can therefore not be accurately aligned with the stimulus:
 
-1. sub-006/ses-shortstories01/eeg/sub-006_ses-shortstories01_task-listeningActive_run-06_eeg.bdf.gz
-2. sub-017/ses-shortstories01/eeg/sub-017_ses-shortstories01_task-listeningActive_run-03_eeg.bdf.gz
-3. sub-048/ses-varyingStories05/eeg/sub-048_ses-varyingStories05_task-listeningActive_run-04_eeg.bdf.gz
+1. sub-006/ses-shortstories01/eeg/sub-006_ses-shortstories01_task-listeningActive_run-06_eeg.bdf
+2. sub-017/ses-shortstories01/eeg/sub-017_ses-shortstories01_task-listeningActive_run-03_eeg.bdf
+3. sub-048/ses-varyingStories05/eeg/sub-048_ses-varyingStories05_task-listeningActive_run-04_eeg.bdf
