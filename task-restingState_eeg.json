@@ -1,0 +1,7 @@
+{
+  "TaskName": "restingState",
+  "SamplingFrequency": 1024,
+  "EEGReference": "CMS/DRL",
+  "PowerLineFrequency": 50,
+  "SoftwareFilters": "n/a"
+}

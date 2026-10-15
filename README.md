@@ -22,6 +22,7 @@ Where extra metadata lives (after NEMAR preparation)
 ----------------------------------------------------
 
   * `/task-listeningActive_eeg.json` — full recording-level EEG metadata (SamplingFrequency, Manufacturer, EEGChannelCount, EEGReference, PowerLineFrequency, ...). Version 1.0.0 kept it under `/code/` because the EEG was stored as `.bdf.gz`, which the validator does not match against the sidecar. Since version 1.1.0 the EEG is plain `.bdf` and the sidecar is back at the dataset root, where BIDS inheritance applies it to every `task-listeningActive` recording.
+  * `/task-restingState_eeg.json` — added in version 1.1.0 (the validator requires it once the restingState `.bdf` files are visible): TaskName and SamplingFrequency from the BDF headers; EEGReference, PowerLineFrequency and SoftwareFilters copied from the authors' `task-listeningActive_eeg.json` (same BioSemi ActiveTwo set-up).
   * `/code/remarks/` — per-session free-form recording notes (`.txt` and `.docx`) originally placed under `sub-XX/ses-YY/remarks/`. Relocated so the validator does not see an arbitrary `remarks/` folder inside BIDS session directories.
   * `/code/convert_accou2023.py` — the exact script that was run to produce this NEMAR re-host.
 
