@@ -1,0 +1,63 @@
+1.1.0 2026-10-15
+  - EEG recordings are now plain BDF (sub-*/ses-*/eeg/*_eeg.bdf) instead of
+    gzip-compressed *_eeg.bdf.gz, so BIDS tools, MNE and EEGDash can read
+    them. Each .bdf is the exact gunzip output of the version 1.0.0 file
+    (input SHA-256 = git-annex key, gzip CRC32/length and BDF header
+    checked); no signal or header byte was changed.
+  - task-listeningActive_eeg.json moved from code/ back to the dataset root
+    (BIDS inheritance); *.bdf.gz removed from .bidsignore; README paths
+    updated.
+  - Added task-restingState_eeg.json, required by the validator once the
+    restingState recordings are visible: TaskName from the file names,
+    SamplingFrequency (1024 Hz) from the BDF headers of all 40 restingState
+    recordings; EEGReference, PowerLineFrequency and SoftwareFilters copied
+    from the authors' task-listeningActive_eeg.json (same BioSemi ActiveTwo
+    set-up and sessions).
+  - Added sourcedata/: the 659 *_eeg.bdf.gz files of version 1.0.0, unchanged,
+    at their original relative paths (sourcedata/sub-*/ses-*/eeg/...). They
+    are the upstream KU Leuven RDR files (doi:10.48804/K3VSND, CC BY-NC 4.0)
+    and point to the same git-annex keys as in 1.0.0, so no new bytes were
+    uploaded. sourcedata/sourcedata_provenance.json lists per file the size
+    and SHA-256 (from the git-annex key and re-computed from the content), the
+    MD5 (computed, equal to the MD5 in the RDR record, version 3.1) and the
+    RDR file id. Not included: 59 RDR *_eeg.bdf.gz of the subjects excluded
+    since 1.0.0 (58 access-restricted, 1 open file of an excluded subject);
+    see upstream_files_not_included. BIDS validators ignore sourcedata/.
+  - Added channels tables: one sub-*/ses-*/eeg/*_channels.tsv per recording
+    for task listeningActive, restingState (the header channel tables differ
+    between recordings). Every value comes from the BDF headers (header bytes
+    only): name = channel label; type = EEG for the 64 cap channels, TRIG for
+    Status, MISC for the BioSemi external/auxiliary inputs EXG1, EXG2, EXG3,
+    EXG4, EXG5, EXG6, EXG7, EXG8 (their use is not documented in the release);
+    units = physical dimension (uV; the Status dimension 'Boolean' is not a
+    physical unit, written n/a); sampling_frequency = samples per record /
+    record duration; low_cutoff/high_cutoff from the prefilter field ('HP: DC;
+    LP: 1667 Hz'/'HP: DC; LP: 3334 Hz' on the EEG channels: HP:DC = no
+    high-pass, written n/a; 'No filtering' on Status; a field without a stated
+    cut-off is n/a). The authors' HardwareFilters in
+    task-listeningActive_eeg.json is left as they wrote it.
+  - task-listeningActive_eeg.json: TaskName "listening" -> "listeningActive",
+    the task label of the file names (BIDS requires them to match);
+    SamplingFrequency 8192 -> 1024, the value in every one of the 619
+    listeningActive BDF headers (samples per record / record duration; channel
+    counts by the types above). All other values, including the authors'
+    TaskDescription, are unchanged.
+  - Not added: electrodes.tsv and coordsystem.json. The release has no
+    digitised electrode positions (only the BioSemi64 cap name); positions
+    from a template would be invented.
+  - task-listeningActive_eeg.json: the authors' key MiscChannelCount (not a
+    BIDS key, so validators ignored it) renamed to MISCChannelCount = 8
+    (EXG1-EXG8 in the BDF headers; one recording,
+    sub-052_ses-varyingStories06_task-listeningActive_run-01_eeg.json, has no
+    EXG inputs in its header and gets its own _eeg.json with MISCChannelCount
+    = 0). task-restingState_eeg.json: EEGChannelCount, TriggerChannelCount,
+    MISCChannelCount and EOGChannelCount from the BDF headers;
+    InstitutionName, InstitutionAddress, Manufacturer, ManufacturersModelName,
+    CapManufacturersModelName, SoftwareVersions, EEGGround and HardwareFilters
+    copied from the authors' task-listeningActive_eeg.json (same BioSemi
+    ActiveTwo set-up and sessions).
+  - All other files (behavioural .apr, events, stimulation tables, stimuli,
+    derivatives, code) are unchanged.
+1.0.0 2026-04-29
+  - Initial NEMAR re-host of SparrKULee (KU Leuven RDR, doi:10.48804/K3VSND):
+    80 of 85 subjects, EEG stored as *_eeg.bdf.gz.
