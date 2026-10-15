@@ -3,5 +3,17 @@
   "SamplingFrequency": 1024,
   "EEGReference": "CMS/DRL",
   "PowerLineFrequency": 50,
-  "SoftwareFilters": "n/a"
+  "SoftwareFilters": "n/a",
+  "EEGChannelCount": 64,
+  "TriggerChannelCount": 1,
+  "MISCChannelCount": 8,
+  "EOGChannelCount": 0,
+  "InstitutionName": "ExpORL, KULeuven",
+  "InstitutionAddress": "Herestraat 49 bus 721, B-3000 Leuven, Belgium",
+  "Manufacturer": "BioSemi",
+  "ManufacturersModelName": "Active Two",
+  "CapManufacturersModelName": "BioSemi64",
+  "SoftwareVersions": "1.2",
+  "EEGGround": "CMS/DRL",
+  "HardwareFilters": "n/a"
 }

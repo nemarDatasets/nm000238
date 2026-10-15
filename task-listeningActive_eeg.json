@@ -12,7 +12,7 @@
   "EEGChannelCount": 64,
   "TriggerChannelCount": 1,
   "EOGChannelCount": 0,
-  "MiscChannelCount": 0,
+  "MISCChannelCount": 8,
   "EEGReference": "CMS/DRL",
   "EEGGround": "CMS/DRL",
   "SoftwareFilters": "n/a",
