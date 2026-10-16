@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "SparrKULee: A Speech-Evoked Auditory Response Repository from KU Leuven, Containing the EEG of 85 Participants",
-  "description": "SparrKULee is a speech-evoked auditory response repository from KU Leuven containing EEG recorded with a BioSemi system from normal-hearing native Dutch/Flemish speakers listening to continuous speech (short stories and varying stories) and resting-state sessions. This NEMAR re-host contains 80 of the original 85 participants, as five subjects' raw files are access-restricted at the source repository. The dataset supports research on neural tracking of speech and auditory EEG modelling.",
-  "methods_description": "EEG was recorded with a BioSemi ActiveTwo system (BDF format) while normal-hearing young adults listened to continuous speech stimuli across multiple sessions, plus resting-state recordings. Triggers align recordings with the stimuli; a few recordings have missing triggers.",
+  "description": "SparrKULee is a speech-evoked auditory response repository from KU Leuven containing EEG recorded from normal-hearing native Dutch/Flemish speakers listening to continuous speech. This NEMAR re-host includes 80 of the original 85 participants across 11 session types (shortstories01 and varyingStories01-10), plus resting-state recordings. The data support research on neural tracking of speech and auditory EEG decoding.",
+  "methods_description": "EEG was recorded with a BioSemi ActiveTwo system, with raw data stored as BDF files, while participants listened to continuous speech stimuli (short stories) in active listening sessions. Participants were 18-30 years old with normal hearing (≤30 dB HL). Recordings are aligned to stimuli via triggers, and the dataset includes resting-state recordings.",
   "license": "Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0) for the EEG data. Stimuli can only be used for non-commercial purposes.",
   "dataset_type": "raw",
   "authors": {
@@ -51,21 +51,21 @@
       "term": "EEG"
     },
     {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
-    },
-    {
       "term": "speech perception"
     },
     {
-      "term": "auditory evoked responses"
+      "term": "auditory evoked potentials"
     },
     {
       "term": "continuous speech"
     },
     {
       "term": "neural tracking"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     }
   ],
   "related_identifiers": [
@@ -134,5 +134,5 @@
     ".xml",
     ".yml"
   ],
-  "source_hash": "f092bac843040ccb6c3166eca729352a8d72b570740d3df50cd8c4838981cc8f"
+  "source_hash": "990da6c22a62517c15ad33a22314f766fdcbf1cecd4e8516aeff9a9866b06b6f"
 }
