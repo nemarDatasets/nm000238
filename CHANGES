@@ -1,3 +1,8 @@
+1.1.1 2026-10-16
+  - Added RecordingDuration (seconds) for every recording, in a per-recording
+    sub-*/ses-*/eeg/*_eeg.json: number of data records x record duration from
+    each BDF header (658 new files, 1 existing file extended). Catalogues
+    such as EEGDash read recording length from this key. Nothing else changed.
 1.1.0 2026-10-15
   - EEG recordings are now plain BDF (sub-*/ses-*/eeg/*_eeg.bdf) instead of
     gzip-compressed *_eeg.bdf.gz, so BIDS tools, MNE and EEGDash can read
